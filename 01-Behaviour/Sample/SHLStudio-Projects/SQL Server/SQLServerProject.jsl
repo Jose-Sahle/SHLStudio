@@ -1,0 +1,11 @@
+﻿<Settings>
+<Version>1.0.0.0</Version>
+<Name>SQLServerProject</Name>
+<Description/>
+<Project>
+<ProjectName>SQLServerProject</ProjectName>
+<ProjectFileName>SQLServerProject.jpj</ProjectFileName>
+<ProjectPath>..\SQL Server</ProjectPath>
+<CanBuild>0</CanBuild>
+</Project>
+</Settings>

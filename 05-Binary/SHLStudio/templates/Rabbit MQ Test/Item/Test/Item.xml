@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Settings>
+	<Categories>
+		<Name>Test</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Item>
+		<Name>Write XML in Rabbit</Name>
+		<Icon>{ACA89196-4CDB-49B2-8DFF-B9AF19DFEE09}</Icon>
+		<Type>XML</Type>
+		<Category>Test</Category>
+		<TemplateFile>.\WriteXML.xhw</TemplateFile>
+		<TemplatePropertyFile>.\WriteXML.xhw.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>DataProvider</Name>
+		<Icon>{31CED5A6-04E8-4010-AB7A-77EC2AC603DB}</Icon>
+		<Type>XML</Type>
+		<Category>Test</Category>
+		<TemplateFile>.\ReadXML.xhw</TemplateFile>
+		<TemplatePropertyFile>.\ReadXML.xhw.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+</Settings>

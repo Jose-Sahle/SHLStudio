@@ -1,0 +1,775 @@
+<?xml version="1.0"?>
+<Settings>
+	<Categories>
+		<Name>Access</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>MySQL</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>Oracle</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>PostGre SQL</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>SQL Server</Name>
+		<Description>
+		</Description>
+	</Categories>
+
+	<Item>
+		<Name>Business Logic Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Access</Category>
+		<TemplateFile>.\Access\c++\BusinessLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\Access\c++\BusinessLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Business Logic Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Access</Category>
+		<TemplateFile>.\Access\c++\BusinessLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\Access\c++\BusinessLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Base Class</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Access</Category>
+		<TemplateFile>.\Access\c++\BaseClass.h</TemplateFile>
+		<TemplatePropertyFile>.\Access\c++\BaseClass.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Access</Category>
+		<TemplateFile>.\Access\c++\DataAcessLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\Access\c++\DataAcessLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Access</Category>
+		<TemplateFile>.\Access\c++\DataAcessLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\Access\c++\DataAcessLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Access</Category>
+		<TemplateFile>.\Access\c++\SQLHelper.h</TemplateFile>
+		<TemplatePropertyFile>.\Access\c++\SQLHelper.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Access</Category>
+		<TemplateFile>.\Access\c++\SQLHelper.cpp</TemplateFile>
+		<TemplatePropertyFile>.\Access\c++\SQLHelper.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Access</Category>
+		<TemplateFile>.\Access\c++\EntityLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\Access\c++\EntityLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Access</Category>
+		<TemplateFile>.\Access\c++\EntityLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\Access\c++\EntityLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Metadata</Name>
+		<Icon>{50D23EF1-B85E-4D2C-B610-A48BEF47BAF88}</Icon>
+		<Type>DT</Type>
+		<Category>Access</Category>
+		<TemplateFile>.\Access\c++\Database.dt</TemplateFile>
+		<TemplatePropertyFile>.\Access\c++\Database.dt.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+		<Dependency>
+		</Dependency>
+	</Item>
+	
+	<Item>
+		<Name>Business Logic Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\c++\BusinessLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\c++\BusinessLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Business Logic Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\c++\BusinessLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\c++\BusinessLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Base Database Access</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\c++\BaseClass.h</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\c++\BaseClass.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\c++\DataAcessLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\c++\DataAcessLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\c++\DataAcessLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\c++\DataAcessLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\c++\SQLHelper.cpp</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\c++\SQLHelper.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\c++\SQLHelper.h</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\c++\SQLHelper.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\c++\EntityLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\c++\EntityLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\c++\EntityLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\c++\EntityLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Metadata</Name>
+		<Icon>{50D23EF1-B85E-4D2C-B610-A48BEF47BAF88}</Icon>
+		<Type>DT</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\c++\Database.dt</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\c++\Database.dt.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+		<Dependency>
+			<File>
+				<Name>ColumnQuery</Name>
+				<Type>SQLServerScript</Type>
+				<FileName>ColumnQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>DatabaseQuery</Name>
+				<Type>SQLServerScript</Type>
+				<FileName>DatabaseQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>TableQuery</Name>
+				<Type>SQLServerScript</Type>
+				<FileName>TableQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+		</Dependency>
+	</Item>
+	<Item>
+		<Name>Insert Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>SQLServerScript</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\Script\Insert.sql</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\Script\Insert.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Update Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>SQLServerScript</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\Script\Update.sql</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\Script\Update.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Delete Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>SQLServerScript</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\Script\Delete.sql</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\Script\Delete.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Select Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>SQLServerScript</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\Script\Select.sql</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\Script\Select.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>	
+	
+	<Item>
+		<Name>Business Logic Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\c++\BusinessLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\c++\BusinessLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Business Logic Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\c++\BusinessLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\c++\BusinessLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Base Database Access</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\c++\BaseClass.h</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\c++\BaseClass.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\c++\DataAcessLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\c++\DataAcessLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\c++\DataAcessLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\c++\DataAcessLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\c++\SQLHelper.cpp</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\c++\SQLHelper.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\c++\SQLHelper.h</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\c++\SQLHelper.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\c++\EntityLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\c++\EntityLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\c++\EntityLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\c++\EntityLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Metadata</Name>
+		<Icon>{50D23EF1-B85E-4D2C-B610-A48BEF47BAF88}</Icon>
+		<Type>DT</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\c++\Database.dt</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\c++\Database.dt.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+		<Dependency>
+			<File>
+				<Name>ColumnQuery</Name>
+				<Type>PostGresScript</Type>
+				<FileName>ColumnQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>DatabaseQuery</Name>
+				<Type>PostGresScript</Type>
+				<FileName>DatabaseQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>TableQuery</Name>
+				<Type>PostGresScript</Type>
+				<FileName>TableQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+		</Dependency>
+	</Item>
+	<Item>
+		<Name>Insert Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>PostGresScript</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\Script\Insert.sql</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\Script\Insert.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Update Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>PostGresScript</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\Script\Update.sql</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\Script\Update.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Delete Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>PostGresScript</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\Script\Delete.sql</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\Script\Delete.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Select Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>PostGresScript</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\Script\Select.sql</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\Script\Select.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	
+	<Item>
+		<Name>Business Logic Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\c++\BusinessLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\c++\BusinessLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Business Logic Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\c++\BusinessLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\c++\BusinessLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Base Database Access</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\c++\BaseClass.h</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\c++\BaseClass.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\c++\DataAcessLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\c++\DataAcessLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\c++\DataAcessLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\c++\DataAcessLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\c++\SQLHelper.cpp</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\c++\SQLHelper.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\c++\SQLHelper.h</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\c++\SQLHelper.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\c++\EntityLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\c++\EntityLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\c++\EntityLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\c++\EntityLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Metadata</Name>
+		<Icon>{50D23EF1-B85E-4D2C-B610-A48BEF47BAF88}</Icon>
+		<Type>DT</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\c++\Database.dt</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\c++\Database.dt.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+		<Dependency>
+			<File>
+				<Name>ColumnQuery</Name>
+				<Type>MySQLScript</Type>
+				<FileName>ColumnQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>DatabaseQuery</Name>
+				<Type>MySQLScript</Type>
+				<FileName>DatabaseQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>TableQuery</Name>
+				<Type>MySQLScript</Type>
+				<FileName>TableQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+		</Dependency>
+	</Item>
+	<Item>
+		<Name>Insert Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>MySQLScript</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\Script\Insert.sql</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\Script\Insert.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Update Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>MySQLScript</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\Script\Update.sql</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\Script\Update.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Delete Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>MySQLScript</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\Script\Delete.sql</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\Script\Delete.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Select Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>MySQLScript</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\Script\Select.sql</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\Script\Select.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+
+	<Item>
+		<Name>Business Logic Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\c++\BusinessLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\c++\BusinessLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Business Logic Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\c++\BusinessLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\c++\BusinessLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Base Database Access</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\c++\BaseClass.h</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\c++\BaseClass.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\c++\DataAcessLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\c++\DataAcessLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\c++\DataAcessLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\c++\DataAcessLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\c++\SQLHelper.cpp</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\c++\SQLHelper.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\c++\SQLHelper.h</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\c++\SQLHelper.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\c++\EntityLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\c++\EntityLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\c++\EntityLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\c++\EntityLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Metadata</Name>
+		<Icon>{50D23EF1-B85E-4D2C-B610-A48BEF47BAF88}</Icon>
+		<Type>DT</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\c++\Database.dt</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\c++\Database.dt.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+		<Dependency>
+			<File>
+				<Name>ColumnQuery</Name>
+				<Type>OracleScript</Type>
+				<FileName>ColumnQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>DatabaseQuery</Name>
+				<Type>OracleScript</Type>
+				<FileName>DatabaseQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>TableQuery</Name>
+				<Type>OracleScript</Type>
+				<FileName>TableQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+		</Dependency>
+	</Item>
+	<Item>
+		<Name>Insert Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>OracleScript</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\Script\Insert.sql</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\Script\Insert.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Update Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>OracleScript</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\Script\Update.sql</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\Script\Update.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Delete Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>OracleScript</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\Script\Delete.sql</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\Script\Delete.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Select Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>OracleScript</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\Script\Select.sql</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\Script\Select.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>	
+</Settings>

@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<Settings>
+	<Categories>
+		<Name>Business Layer</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>Database Logic Layer</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>Entity</Name>
+		<Description>
+		</Description>
+	</Categories>
+	
+	<Item>
+		<Name>Business Logic Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Business Layer</Category>
+		<TemplateFile>.\BusinessLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\BusinessLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Business Logic Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Business Layer</Category>
+		<TemplateFile>.\BusinessLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\BusinessLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Base Database Access</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\BaseClass.h</TemplateFile>
+		<TemplatePropertyFile>.\BaseClass.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\DataAcessLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\DataAcessLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\DataAcessLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\DataAcessLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\SQLHelper.cpp</TemplateFile>
+		<TemplatePropertyFile>.\SQLHelper.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\SQLHelper.h</TemplateFile>
+		<TemplatePropertyFile>.\SQLHelper.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Entity</Category>
+		<TemplateFile>.\EntityLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\EntityLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>	
+	<Item>
+		<Name>Entity Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Entity</Category>
+		<TemplateFile>.\EntityLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\EntityLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>	
+	<Item>
+		<Name>Metadata</Name>
+		<Icon>{50D23EF1-B85E-4D2C-B610-A48BEF47BAF88}</Icon>
+		<Type>DT</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\Database.dt</TemplateFile>
+		<TemplatePropertyFile>.\Database.dt.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+		<Dependency>
+			<File>
+				<Name>ColumnQuery</Name>
+				<Type>SQLServerScript</Type>
+				<FileName>ColumnQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>DatabaseQuery</Name>
+				<Type>SQLServerScript</Type>
+				<FileName>DatabaseQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>TableQuery</Name>
+				<Type>SQLServerScript</Type>
+				<FileName>TableQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+		</Dependency>
+	</Item>
+</Settings>

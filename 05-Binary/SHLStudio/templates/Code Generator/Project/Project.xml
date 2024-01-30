@@ -1,0 +1,292 @@
+﻿<?xml version="1.0"?>
+<Settings>
+	<Categories>
+		<Name>Access</Name>
+		<Description>
+		</Description>
+	</Categories>
+	
+	<Categories>
+		<Name>DotNetNuke</Name>
+		<Description>
+		</Description>
+	</Categories>
+	
+	<Categories>
+		<Name>MySQL</Name>
+		<Description>
+		</Description>
+	</Categories>
+	
+	<Categories>
+		<Name>Oracle</Name>
+		<Description>
+		</Description>
+	</Categories>
+	
+	<Categories>
+		<Name>PostGre SQL</Name>
+		<Description>
+		</Description>
+	</Categories>
+	
+	<Categories>
+		<Name>SQL Server</Name>
+		<Description>
+		</Description>
+	</Categories>
+	
+	<Project>
+		<Name>Empy Project</Name>
+		<ProjectName>SQLServerProject</ProjectName>
+		<Icon>{3E3E8C0E-96E6-45D0-A443-13E495D69385}</Icon>
+		<Category></Category>
+		<Description>
+		</Description>
+		<Items>
+			<File>.\EmptyProject.jpj</File>
+			<File>.\EmptyProject.prt</File>
+		</Items>
+	</Project>
+
+	<Project>
+		<Name>Access Project</Name>
+		<ProjectName>AccessProject</ProjectName>
+		<Icon>{3E3E8C0E-96E6-45D0-A443-13E495D69385}</Icon>
+		<Category>Access</Category>
+		<Description>
+		</Description>
+		<Items>
+			<File>.\AccessProject.jpj</File>
+			<File>.\AccessProject.prt</File>
+			<File>..\Item\Class Generator C#\Access\C#\BaseDAL.cs</File>
+			<File>..\Item\Class Generator C#\Access\C#\BaseDAL.cs.prt</File>
+			<File>..\Item\Class Generator C#\Access\C#\BaseModel.cs</File>
+			<File>..\Item\Class Generator C#\Access\C#\BaseModel.cs.prt</File>
+			<File>..\Item\Class Generator C#\Access\C#\BusinessLayer.cs</File>
+			<File>..\Item\Class Generator C#\Access\C#\BusinessLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\Access\C#\DataAcessLayer.cs</File>
+			<File>..\Item\Class Generator C#\Access\C#\DataAcessLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\Access\C#\Database.dt</File>
+			<File>..\Item\Class Generator C#\Access\C#\Database.dt.prt</File>
+			<File>..\Item\Class Generator C#\Access\C#\EntityLayer.cs</File>
+			<File>..\Item\Class Generator C#\Access\C#\EntityLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\Access\C#\SQLHelper.cs</File>
+			<File>..\Item\Class Generator C#\Access\C#\SQLHelper.cs.prt</File>
+		</Items>
+	</Project>
+	
+	<Project>
+		<Name>SQL Server Project</Name>
+		<ProjectName>SQLServerProject</ProjectName>
+		<Icon>{3E3E8C0E-96E6-45D0-A443-13E495D69385}</Icon>
+		<Category>SQL Server</Category>
+		<Description>
+		</Description>
+		<Items>
+			<File>.\SQLServerProject.jpj</File>
+			<File>.\SQLServerProject.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\C#\BaseDAL.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\C#\BaseDAL.cs.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\C#\BaseModel.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\C#\BaseModel.cs.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\C#\BusinessLayer.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\C#\BusinessLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\C#\ColumnQuery.sql</File>
+			<File>..\Item\Class Generator C#\Sql Server\C#\DataAcessLayer.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\C#\DataAcessLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\C#\Database.dt</File>
+			<File>..\Item\Class Generator C#\Sql Server\C#\Database.dt.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\C#\DatabaseQuery.sql</File>
+			<File>..\Item\Class Generator C#\Sql Server\C#\EntityLayer.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\C#\EntityLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\C#\SQLHelper.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\C#\SQLHelper.cs.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\C#\TableQuery.sql</File>
+			<File>..\Item\Class Generator C#\Sql Server\Script\Delete.sql</File>
+			<File>..\Item\Class Generator C#\Sql Server\Script\Delete.sql.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\Script\Insert.sql</File>
+			<File>..\Item\Class Generator C#\Sql Server\Script\Insert.sql.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\Script\Select.sql</File>
+			<File>..\Item\Class Generator C#\Sql Server\Script\Select.sql.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\Script\Update.sql</File>
+			<File>..\Item\Class Generator C#\Sql Server\Script\Update.sql.prt</File>
+		</Items>
+	</Project>
+
+	<Project>
+		<Name>SQL Server Project - No Procedure</Name>
+		<ProjectName>SQLServerProjectNoProc</ProjectName>
+		<Icon>{3E3E8C0E-96E6-45D0-A443-13E495D69385}</Icon>
+		<Category>SQL Server</Category>
+		<Description>
+		</Description>
+		<Items>
+			<File>.\SQLServerProjectNoProc.jpj</File>
+			<File>.\SQLServerProjectNoProc.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\BaseDAL.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\BaseDAL.cs.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\BaseModel.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\BaseModel.cs.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\BusinessLayer.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\BusinessLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\ColumnQuery.sql</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\DataAcessLayer.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\DataAcessLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\Database.dt</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\Database.dt.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\DatabaseQuery.sql</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\EntityLayer.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\EntityLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\SQLHelper.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\SQLHelper.cs.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\TableQuery.sql</File>
+		</Items>
+	</Project>
+
+	<Project>
+		<Name>SQL Server Project - Micro Serviço Controller</Name>
+		<ProjectName>SQLServerController</ProjectName>
+		<Icon>{3E3E8C0E-96E6-45D0-A443-13E495D69385}</Icon>
+		<Category>SQL Server</Category>
+		<Description>
+		</Description>
+		<Items>
+			<File>.\SQLServerController.jpj</File>
+			<File>.\SQLServerController.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\BaseDAL.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\BaseDAL.cs.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\BaseModel.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\BaseModel.cs.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\BusinessLayer.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\BusinessLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\ColumnQuery.sql</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\DataAcessLayer.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\DataAcessLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\Database.dt</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\Database.dt.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\DatabaseQuery.sql</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\EntityLayer.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\EntityLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\SQLHelper.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\SQLHelper.cs.prt</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\TableQuery.sql</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\Controller.cs</File>
+			<File>..\Item\Class Generator C#\Sql Server\NoProc-C#\Controller.cs.prt</File>
+		</Items>
+	</Project>
+	
+	<Project>
+		<Name>MySQL Project</Name>
+		<ProjectName>MySQLProject</ProjectName>
+		<Icon>{3E3E8C0E-96E6-45D0-A443-13E495D69385}</Icon>
+		<Category>MySQL</Category>
+		<Description>
+		</Description>
+		<Items>
+			<File>.\MySQLProject.jpj</File>
+			<File>.\MySQLProject.prt</File>
+			<File>..\Item\Class Generator C#\MySQL\C#\BaseDAL.cs</File>
+			<File>..\Item\Class Generator C#\MySQL\C#\BaseDAL.cs.prt</File>
+			<File>..\Item\Class Generator C#\MySQL\C#\BaseModel.cs</File>
+			<File>..\Item\Class Generator C#\MySQL\C#\BaseModel.cs.prt</File>
+			<File>..\Item\Class Generator C#\MySQL\C#\BusinessLayer.cs</File>
+			<File>..\Item\Class Generator C#\MySQL\C#\BusinessLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\MySQL\C#\ColumnQuery.sql</File>
+			<File>..\Item\Class Generator C#\MySQL\C#\DataAcessLayer.cs</File>
+			<File>..\Item\Class Generator C#\MySQL\C#\DataAcessLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\MySQL\C#\Database.dt</File>
+			<File>..\Item\Class Generator C#\MySQL\C#\Database.dt.prt</File>
+			<File>..\Item\Class Generator C#\MySQL\C#\DatabaseQuery.sql</File>
+			<File>..\Item\Class Generator C#\MySQL\C#\EntityLayer.cs</File>
+			<File>..\Item\Class Generator C#\MySQL\C#\EntityLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\MySQL\C#\SQLHelper.cs</File>
+			<File>..\Item\Class Generator C#\MySQL\C#\SQLHelper.cs.prt</File>
+			<File>..\Item\Class Generator C#\MySQL\C#\TableQuery.sql</File>
+			<File>..\Item\Class Generator C#\MySQL\Script\Delete.sql</File>
+			<File>..\Item\Class Generator C#\MySQL\Script\Delete.sql.prt</File>
+			<File>..\Item\Class Generator C#\MySQL\Script\Insert.sql</File>
+			<File>..\Item\Class Generator C#\MySQL\Script\Insert.sql.prt</File>
+			<File>..\Item\Class Generator C#\MySQL\Script\Select.sql</File>
+			<File>..\Item\Class Generator C#\MySQL\Script\Select.sql.prt</File>
+			<File>..\Item\Class Generator C#\MySQL\Script\Update.sql</File>
+			<File>..\Item\Class Generator C#\MySQL\Script\Update.sql.prt</File>
+		</Items>
+	</Project>	
+	
+	<Project>
+		<Name>PostGre SQL Project</Name>
+		<ProjectName>PostGreSQLProject</ProjectName>
+		<Icon>{3E3E8C0E-96E6-45D0-A443-13E495D69385}</Icon>
+		<Category>PostGre SQL</Category>
+		<Description>
+		</Description>
+		<Items>
+			<File>.\PostGreSQLProject.jpj</File>
+			<File>.\PostGreSQLProject.prt</File>
+			<File>..\Item\Class Generator C#\PostGres\C#\BaseDAL.cs</File>
+			<File>..\Item\Class Generator C#\PostGres\C#\BaseDAL.cs.prt</File>
+			<File>..\Item\Class Generator C#\PostGres\C#\BaseModel.cs</File>
+			<File>..\Item\Class Generator C#\PostGres\C#\BaseModel.cs.prt</File>
+			<File>..\Item\Class Generator C#\PostGres\C#\BusinessLayer.cs</File>
+			<File>..\Item\Class Generator C#\PostGres\C#\BusinessLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\PostGres\C#\ColumnQuery.sql</File>
+			<File>..\Item\Class Generator C#\PostGres\C#\DataAcessLayer.cs</File>
+			<File>..\Item\Class Generator C#\PostGres\C#\DataAcessLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\PostGres\C#\Database.dt</File>
+			<File>..\Item\Class Generator C#\PostGres\C#\Database.dt.prt</File>
+			<File>..\Item\Class Generator C#\PostGres\C#\DatabaseQuery.sql</File>
+			<File>..\Item\Class Generator C#\PostGres\C#\EntityLayer.cs</File>
+			<File>..\Item\Class Generator C#\PostGres\C#\EntityLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\PostGres\C#\SQLHelper.cs</File>
+			<File>..\Item\Class Generator C#\PostGres\C#\SQLHelper.cs.prt</File>
+			<File>..\Item\Class Generator C#\PostGres\C#\TableQuery.sql</File>
+			<File>..\Item\Class Generator C#\PostGres\Script\Delete.sql</File>
+			<File>..\Item\Class Generator C#\PostGres\Script\Delete.sql.prt</File>
+			<File>..\Item\Class Generator C#\PostGres\Script\Insert.sql</File>
+			<File>..\Item\Class Generator C#\PostGres\Script\Insert.sql.prt</File>
+			<File>..\Item\Class Generator C#\PostGres\Script\Select.sql</File>
+			<File>..\Item\Class Generator C#\PostGres\Script\Select.sql.prt</File>
+			<File>..\Item\Class Generator C#\PostGres\Script\Update.sql</File>
+			<File>..\Item\Class Generator C#\PostGres\Script\Update.sql.prt</File>
+		</Items>
+	</Project>	
+	
+	<Project>
+		<Name>Oracle Project</Name>
+		<ProjectName>OracleProject</ProjectName>
+		<Icon>{3E3E8C0E-96E6-45D0-A443-13E495D69385}</Icon>
+		<Category>Oracle</Category>
+		<Description>
+		</Description>
+		<Items>
+			<File>.\OracleProject.jpj</File>
+			<File>.\OracleProject.prt</File>
+			<File>..\Item\Class Generator C#\Oracle\C#\BaseDAL.cs</File>
+			<File>..\Item\Class Generator C#\Oracle\C#\BaseDAL.cs.prt</File>
+			<File>..\Item\Class Generator C#\Oracle\C#\BaseModel.cs</File>
+			<File>..\Item\Class Generator C#\Oracle\C#\BaseModel.cs.prt</File>
+			<File>..\Item\Class Generator C#\Oracle\C#\BusinessLayer.cs</File>
+			<File>..\Item\Class Generator C#\Oracle\C#\BusinessLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\Oracle\C#\ColumnQuery.sql</File>
+			<File>..\Item\Class Generator C#\Oracle\C#\DataAcessLayer.cs</File>
+			<File>..\Item\Class Generator C#\Oracle\C#\DataAcessLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\Oracle\C#\Database.dt</File>
+			<File>..\Item\Class Generator C#\Oracle\C#\Database.dt.prt</File>
+			<File>..\Item\Class Generator C#\Oracle\C#\DatabaseQuery.sql</File>
+			<File>..\Item\Class Generator C#\Oracle\C#\EntityLayer.cs</File>
+			<File>..\Item\Class Generator C#\Oracle\C#\EntityLayer.cs.prt</File>
+			<File>..\Item\Class Generator C#\Oracle\C#\SQLHelper.cs</File>
+			<File>..\Item\Class Generator C#\Oracle\C#\SQLHelper.cs.prt</File>
+			<File>..\Item\Class Generator C#\Oracle\C#\TableQuery.sql</File>
+			<File>..\Item\Class Generator C#\Oracle\Script\Delete.sql</File>
+			<File>..\Item\Class Generator C#\Oracle\Script\Delete.sql.prt</File>
+			<File>..\Item\Class Generator C#\Oracle\Script\Insert.sql</File>
+			<File>..\Item\Class Generator C#\Oracle\Script\Insert.sql.prt</File>
+			<File>..\Item\Class Generator C#\Oracle\Script\Select.sql</File>
+			<File>..\Item\Class Generator C#\Oracle\Script\Select.sql.prt</File>
+			<File>..\Item\Class Generator C#\Oracle\Script\Update.sql</File>
+			<File>..\Item\Class Generator C#\Oracle\Script\Update.sql.prt</File>
+		</Items>
+	</Project>	
+</Settings>

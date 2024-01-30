@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Settings>
+	<Categories>
+		<Name>Database Script</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Item>
+		<Name>Insert Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>MySQLScript</Type>
+		<Category>Database Script</Category>
+		<TemplateFile>.\Insert.sql</TemplateFile>
+		<TemplatePropertyFile>.\Insert.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Update Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>MySQLScript</Type>
+		<Category>Database Script</Category>
+		<TemplateFile>.\Update.sql</TemplateFile>
+		<TemplatePropertyFile>.\Update.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Delete Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>MySQLScript</Type>
+		<Category>Database Script</Category>
+		<TemplateFile>.\Delete.sql</TemplateFile>
+		<TemplatePropertyFile>.\Delete.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Select Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>MySQLScript</Type>
+		<Category>Database Script</Category>
+		<TemplateFile>.\Select.sql</TemplateFile>
+		<TemplatePropertyFile>.\Select.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+</Settings>

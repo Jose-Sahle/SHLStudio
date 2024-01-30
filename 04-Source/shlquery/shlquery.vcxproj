@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3F625BF2-6274-4EB0-B58B-326DC1075D4D}</ProjectGuid>
+    <RootNamespace>shlquery</RootNamespace>
+    <Keyword>MFCDLLProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <SpectreMitigation>false</SpectreMitigation>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(ProjectDir)..\..\05-Binary\SHLStudio_tmp\$(ProjectName)$(Configuration)\</OutDir>
+    <IncludePath>$(IncludePath);$(ProjectDir)..\..\05-Binary\Header;$(ProjectDir)..\..\05-Binary\Header\UltimateGrid</IncludePath>
+    <LibraryPath>$(ProjectDir)..\..\05-Binary\Lib;$(LibraryPath)</LibraryPath>
+    <IntDir>$(ProjectDir)..\..\05-Binary\SHLStudio_tmp\$(ProjectName)$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)..\..\05-Binary\SHLStudio_tmp\$(ProjectName)$(Configuration)\</OutDir>
+    <IncludePath>$(IncludePath);$(ProjectDir)..\..\05-Binary\Header;$(ProjectDir)..\..\05-Binary\Header\UltimateGrid</IncludePath>
+    <LibraryPath>$(ProjectDir)..\..\05-Binary\Lib;$(LibraryPath)</LibraryPath>
+    <IntDir>$(ProjectDir)..\..\05-Binary\SHLStudio_tmp\$(ProjectName)$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>SHLQUERY_EXPORTS;WIN32;_WINDOWS;_DEBUG;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>.\shlquery.def</ModuleDefinitionFile>
+      <AdditionalDependencies>shloledbclient32ud.lib;shllibraryud.lib;shleditorlibrary32ud.lib;SHLUltimateGridud.lib;shlpathud.lib</AdditionalDependencies>
+      <OutputFile>$(TargetPath)</OutputFile>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>copy /y "$(TargetPath)" "$(ProjectDir)..\..\05-Binary\SHLStudio\\binaries"
+copy /y "$(TargetPath)" "$(ProjectDir)..\..\05-Binary\Bin"
+</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>copy  "$(ProjectDir)ISHLQuery.h" "$(ProjectDir)..\..\05-Binary\Header"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>SHLQUERY_EXPORTS;WIN32;_WINDOWS;NDEBUG;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>.\shlquery.def</ModuleDefinitionFile>
+      <AdditionalDependencies>shloledbclient32u.lib;shllibraryu.lib;shleditorlibrary32u.lib;SHLUltimateGridu.lib;shlpathu.lib</AdditionalDependencies>
+      <OutputFile>$(TargetPath)</OutputFile>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>copy /y "$(TargetPath)" "$(ProjectDir)..\..\05-Binary\SHLStudio\\binaries"
+copy /y "$(TargetPath)" "$(ProjectDir)..\..\05-Binary\Bin"
+</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>copy  "$(ProjectDir)ISHLQuery.h" "$(ProjectDir)..\..\05-Binary\Header"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FindDlg.cpp" />
+    <ClCompile Include="GotoLineDlg.cpp" />
+    <ClCompile Include="GotoPosDlg.cpp" />
+    <ClCompile Include="ReplaceDlg.cpp" />
+    <ClCompile Include="SHLChildScintillaSqlFrm.cpp" />
+    <ClCompile Include="dllmain.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SHLEditView.cpp" />
+    <ClCompile Include="shlquery.cpp" />
+    <ClCompile Include="SHLQueryInstance.cpp" />
+    <ClCompile Include="SHLQueryScintillaSqlDoc.cpp" />
+    <ClCompile Include="SHLQueryScintillaSqlView.cpp" />
+    <ClCompile Include="SHLTabbedResultView.cpp" />
+    <ClCompile Include="SHLUltimateGridView.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UGCtrlEx.cpp" />
+    <ClCompile Include="ViewTree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shlquery.rc2" />
+    <None Include="shlquery.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FindDlg.h" />
+    <ClInclude Include="GotoLineDlg.h" />
+    <ClInclude Include="GotoPosDlg.h" />
+    <ClInclude Include="ReplaceDlg.h" />
+    <ClInclude Include="SHLChildScintillaSqlFrm.h" />
+    <ClInclude Include="ISHLQuery.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SHLEditView.h" />
+    <ClInclude Include="SHLQueryInstance.h" />
+    <ClInclude Include="SHLQueryScintillaSqlDoc.h" />
+    <ClInclude Include="SHLQueryScintillaSqlView.h" />
+    <ClInclude Include="SHLTabbedResultView.h" />
+    <ClInclude Include="SHLUltimateGridView.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UGCtrlEx.h" />
+    <ClInclude Include="ViewTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="shlquery.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="shlquery.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

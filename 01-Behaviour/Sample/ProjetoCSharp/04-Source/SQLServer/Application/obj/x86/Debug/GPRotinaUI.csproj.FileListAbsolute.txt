@@ -1,0 +1,16 @@
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Application\bin\Debug\GPRotinaUI.exe
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Application\bin\Debug\GPRotinaUI.pdb
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Application\bin\Debug\GPRotinaBLL.dll
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Application\bin\Debug\GPRotinaEntity.dll
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Application\bin\Debug\GPRotinaDAL.dll
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Application\bin\Debug\GPRotinaBLL.pdb
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Application\bin\Debug\GPRotinaEntity.pdb
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Application\bin\Debug\GPRotinaDAL.pdb
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Application\obj\x86\Debug\GPRotinaUI.csproj.AssemblyReference.cache
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Application\obj\x86\Debug\GPRotinaUI.frmPrincipal.resources
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Application\obj\x86\Debug\GPRotinaUI.Properties.Resources.resources
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Application\obj\x86\Debug\GPRotinaUI.csproj.GenerateResource.cache
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Application\obj\x86\Debug\GPRotinaUI.csproj.CoreCompileInputs.cache
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Application\obj\x86\Debug\GPRotinaUI.csproj.CopyComplete
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Application\obj\x86\Debug\GPRotinaUI.exe
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Application\obj\x86\Debug\GPRotinaUI.pdb

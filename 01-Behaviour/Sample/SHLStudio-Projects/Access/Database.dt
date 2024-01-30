@@ -1,0 +1,10 @@
+<Settings>
+<Table Name="SHLCepEndereco">
+<Field Name="BAIRRO" PrimaryKey="0" Identity="0" DBType="String" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="CEP" PrimaryKey="0" Identity="0" DBType="String" DBSize="8" ForeignKey="0" TableForeignKey=""/>
+<Field Name="CIDADE" PrimaryKey="0" Identity="0" DBType="String" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="ENDERECO" PrimaryKey="0" Identity="0" DBType="String" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="ESTADO" PrimaryKey="0" Identity="0" DBType="String" DBSize="2" ForeignKey="0" TableForeignKey=""/>
+<Field Name="idshlcependereco" PrimaryKey="1" Identity="1" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+</Table>
+</Settings>

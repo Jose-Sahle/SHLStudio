@@ -1,0 +1,33 @@
+
+/**********************************************************
+  AUTHOR	: 
+  VERSION	: 1.0.0.0
+  DATE		: 08/04/2014 09:03:44
+  FUNCTION	: Update a record in the table GP_EXCEPTIONS
+**********************************************************/
+/*Create the SQL for the stored procedure*/
+CREATE OR REPLACE PROCEDURE EXCEPTIONS_Update
+(
+	var_IDEXCEPTIONS IN INTEGER,
+	var_IDROTINA IN INTEGER,
+	var_TENTATIVA IN INTEGER,
+	var_INTERVALO IN INTEGER,
+	var_ENVIAREMAIL IN INTEGER,
+	var_ENVIARULTIMOEMAIL IN INTEGER
+)
+IS 
+BEGIN
+	UPDATE 
+		GP_EXCEPTIONS 
+	SET
+		IDROTINA = var_IDROTINA
+		,TENTATIVA = var_TENTATIVA
+		,INTERVALO = var_INTERVALO
+		,ENVIAREMAIL = var_ENVIAREMAIL
+		,ENVIARULTIMOEMAIL = var_ENVIARULTIMOEMAIL
+	WHERE 
+		IDEXCEPTIONS = var_IDEXCEPTIONS;
+		
+END EXCEPTIONS_Update;
+GO
+

@@ -1,0 +1,41 @@
+
+/**********************************************************
+  AUTHOR	: 
+  VERSION	: 1.0.0.0
+  DATE		: 08/04/2014 09:03:44
+  FUNCTION	: Update a record in the table GP_EMAIL
+**********************************************************/
+/*Create the SQL for the stored procedure*/
+CREATE OR REPLACE PROCEDURE EMAIL_Update
+(
+	var_IDEMAIL IN INTEGER,
+	var_IDROTINA IN INTEGER,
+	var_FROMEMAIL IN VARCHAR2,
+	var_TOEMAIL IN VARCHAR2,
+	var_SUBJECTEMAIL IN VARCHAR2,
+	var_TYPEEMAIL IN VARCHAR2,
+	var_BODYEMAIL IN VARCHAR2,
+	var_CLASSIFICACAO IN INTEGER,
+	var_ANEXO IN VARCHAR2,
+	var_ATIVO IN INTEGER
+)
+IS 
+BEGIN
+	UPDATE 
+		GP_EMAIL 
+	SET
+		IDROTINA = var_IDROTINA
+		,FROMEMAIL = var_FROMEMAIL
+		,TOEMAIL = var_TOEMAIL
+		,SUBJECTEMAIL = var_SUBJECTEMAIL
+		,TYPEEMAIL = var_TYPEEMAIL
+		,BODYEMAIL = var_BODYEMAIL
+		,CLASSIFICACAO = var_CLASSIFICACAO
+		,ANEXO = var_ANEXO
+		,ATIVO = var_ATIVO
+	WHERE 
+		IDEMAIL = var_IDEMAIL;
+		
+END EMAIL_Update;
+GO
+

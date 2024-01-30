@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<Settings>
+	<Categories>
+		<Name>Business Layer</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>Database Logic Layer</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>Entity</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>Database Script</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Item>
+		<Name>Business Logic Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Business Layer</Category>
+		<TemplateFile>.\C#\BusinessLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\C#\BusinessLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Base Database Access</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\C#\BaseDAL.cs</TemplateFile>
+		<TemplatePropertyFile>.\C#\BaseDAL.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\C#\DataAcessLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\C#\DataAcessLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\C#\SQLHelper.cs</TemplateFile>
+		<TemplatePropertyFile>.\C#\SQLHelper.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Metadata</Name>
+		<Icon>{50D23EF1-B85E-4D2C-B610-A48BEF47BAF88}</Icon>
+		<Type>DT</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\C#\Database.dt</TemplateFile>
+		<TemplatePropertyFile>.\C#\Database.dt.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+		<Dependency>
+			<File>
+				<Name>ColumnQuery</Name>
+				<Type>MySQLScript</Type>
+				<FileName>ColumnQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>DatabaseQuery</Name>
+				<Type>MySQLScript</Type>
+				<FileName>DatabaseQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>TableQuery</Name>
+				<Type>MySQLScript</Type>
+				<FileName>TableQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+		</Dependency>
+	</Item>
+	<Item>
+		<Name>Base Model</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Entity</Category>
+		<TemplateFile>.\C#\BaseModel.cs</TemplateFile>
+		<TemplatePropertyFile>.\C#\BaseDAL.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Entity</Category>
+		<TemplateFile>.\C#\EntityLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\C#\EntityLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Insert Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>MySQLScript</Type>
+		<Category>Database Script</Category>
+		<TemplateFile>.\Script\Insert.sql</TemplateFile>
+		<TemplatePropertyFile>.\Script\Insert.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Update Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>MySQLScript</Type>
+		<Category>Database Script</Category>
+		<TemplateFile>.\Script\Update.sql</TemplateFile>
+		<TemplatePropertyFile>.\Script\Update.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Delete Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>MySQLScript</Type>
+		<Category>Database Script</Category>
+		<TemplateFile>.\Script\Delete.sql</TemplateFile>
+		<TemplatePropertyFile>.\Script\Delete.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Select Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>MySQLScript</Type>
+		<Category>Database Script</Category>
+		<TemplateFile>.\Script\Select.sql</TemplateFile>
+		<TemplatePropertyFile>.\Script\Select.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+</Settings>

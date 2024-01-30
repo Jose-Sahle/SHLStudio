@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<Settings>
+	<Categories>
+		<Name>DotNetNuke</Name>
+		<Description>
+		</Description>
+	</Categories>
+	
+	<Project>
+		<Name>Empy Project</Name>
+		<ProjectName>DotNetNuke Module</ProjectName>
+		<Icon>{0F879BF7-31F2-4209-9F5D-BC0D356B2D85}</Icon>
+		<Category>DotNetNuke</Category>
+		<Description>
+		</Description>
+		<Items>
+			<File>.\EmptyProject.jpj</File>
+			<File>.\EmptyProject.prt</File>
+		</Items>
+	</Project>
+	<Project>
+		<Name>DotNetNuke Module Project</Name>
+		<ProjectName>DotNetNuke Module</ProjectName>
+		<Icon>{0F879BF7-31F2-4209-9F5D-BC0D356B2D85}</Icon>
+		<Category>DotNetNuke</Category>
+		<Description>
+		</Description>
+		<Items>
+			<File>.\DotNetNuke Module.jpj</File>
+			<File>.\DotNetNuke Module.prt</File>
+			<File>..\Item\DotNetNuke\Module\BusinessLayerController.cs</File>
+			<File>..\Item\DotNetNuke\Module\BusinessLayerController.cs.prt</File>
+			<File>..\Item\DotNetNuke\Module\ColumnQuery.sql</File>
+			<File>..\Item\DotNetNuke\Module\DatabaseQuery.sql</File>
+			<File>..\Item\DotNetNuke\Module\TableQuery.sql</File>
+			<File>..\Item\DotNetNuke\Module\Database.dt</File>
+			<File>..\Item\DotNetNuke\Module\Database.dt.prt</File>
+			<File>..\Item\DotNetNuke\Module\DataProvider.cs</File>
+			<File>..\Item\DotNetNuke\Module\DataProvider.cs.prt</File>
+			<File>..\Item\DotNetNuke\Module\EntityInfoClass.cs</File>
+			<File>..\Item\DotNetNuke\Module\EntityInfoClass.cs.prt</File>
+			<File>..\Item\DotNetNuke\Module\BaseModel.cs</File>
+			<File>..\Item\DotNetNuke\Module\BaseModel.cs.prt</File>
+			<File>..\Item\DotNetNuke\Module\SqlDataProvider.cs</File>
+			<File>..\Item\DotNetNuke\Module\SqlDataProvider.cs.prt</File>
+			<File>..\Item\DotNetNuke\Module\XX.YY.ZZ.SqlDataProvider.sql</File>
+			<File>..\Item\DotNetNuke\Module\XX.YY.ZZ.SqlDataProvider.sql.prt</File>
+			<File>..\Item\DotNetNuke\Module\Uninstall.SqlDataProvider.sql</File>
+			<File>..\Item\DotNetNuke\Module\Uninstall.SqlDataProvider.sql.prt</File>
+			<File>..\Item\DotNetNuke\Module\Schema.sql</File>
+			<File>..\Item\DotNetNuke\Module\Schema.sql.prt</File>
+		</Items>
+	</Project>
+</Settings>

@@ -1,0 +1,14 @@
+<Settings>
+<Table Name="shl_SHLContact">
+<Field Name="idSHLContact" PrimaryKey="1" Identity="1" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="ModuleId" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="1" TableForeignKey="shl_Modules"/>
+<Field Name="CreatedByUser" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="CreatedDate" PrimaryKey="0" Identity="0" DBType="DateTime" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="SMTPEmail" PrimaryKey="0" Identity="0" DBType="String" DBSize="256" ForeignKey="0" TableForeignKey=""/>
+<Field Name="SMTPServer" PrimaryKey="0" Identity="0" DBType="String" DBSize="200" ForeignKey="0" TableForeignKey=""/>
+<Field Name="SMTPAuthentication" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="SMTPEnableSSL" PrimaryKey="0" Identity="0" DBType="String" DBSize="1" ForeignKey="0" TableForeignKey=""/>
+<Field Name="SMTPPassword" PrimaryKey="0" Identity="0" DBType="String" DBSize="50" ForeignKey="0" TableForeignKey=""/>
+<Field Name="SMTPUsername" PrimaryKey="0" Identity="0" DBType="String" DBSize="256" ForeignKey="0" TableForeignKey=""/>
+</Table>
+</Settings>

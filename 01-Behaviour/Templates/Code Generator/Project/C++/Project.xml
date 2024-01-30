@@ -1,0 +1,259 @@
+﻿<?xml version="1.0"?>
+<Settings>
+	<Categories>
+		<Name>Access</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>MySQL</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>Oracle</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>PostGre SQL</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>SQL Server</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Project>
+		<Name>Empy Project</Name>
+		<ProjectName>SQLServerProject</ProjectName>
+		<Icon>{3E3E8C0E-96E6-45D0-A443-13E495D69385}</Icon>
+		<Category></Category>
+		<Description>
+		</Description>
+		<Items>
+			<File>.\EmptyProject.jpj</File>
+			<File>.\EmptyProject.prt</File>
+		</Items>
+	</Project>
+
+	<Project>
+		<Name>Access Project</Name>
+		<ProjectName>AccessProject</ProjectName>
+		<Icon>{3E3E8C0E-96E6-45D0-A443-13E495D69385}</Icon>
+		<Category>Access</Category>
+		<Description>
+		</Description>
+		<Items>
+			<File>.\AccessProject.jpj</File>
+			<File>.\AccessProject.prt</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\BaseClass.cpp</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\BaseClass.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\BaseClass.h</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\BaseClass.h.prt</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\BusinessLayer.cpp</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\BusinessLayer.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\BusinessLayer.h</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\BusinessLayer.h.prt</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\DataAcessLayer.cpp</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\DataAcessLayer.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\DataAcessLayer.h</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\DataAcessLayer.h.prt</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\Database.dt</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\Database.dt.prt</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\EntityLayer.cpp</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\EntityLayer.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\EntityLayer.h</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\EntityLayer.h.prt</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\SQLHelper.cpp</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\SQLHelper.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\SQLHelper.h</File>
+			<File>..\..\Item\Class Generator c++\Access\c++\SQLHelper.h.prt</File>
+		</Items>
+	</Project>
+	
+	<Project>
+		<Name>SQL Server Project</Name>
+		<ProjectName>SQLServerProject</ProjectName>
+		<Icon>{3E3E8C0E-96E6-45D0-A443-13E495D69385}</Icon>
+		<Category>SQL Server</Category>
+		<Description>
+		</Description>
+		<Items>
+			<File>.\SQLServerProject.jpj</File>
+			<File>.\SQLServerProject.prt</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\BaseClass.cpp</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\BaseClass.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\BaseClass.h</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\BaseClass.h.prt</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\BusinessLayer.cpp</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\BusinessLayer.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\BusinessLayer.h</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\BusinessLayer.h.prt</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\ColumnQuery.sql</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\DataAcessLayer.cpp</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\DataAcessLayer.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\DataAcessLayer.h</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\DataAcessLayer.h.prt</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\Database.dt</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\Database.dt.prt</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\DatabaseQuery.sql</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\EntityLayer.cpp</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\EntityLayer.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\EntityLayer.h</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\EntityLayer.h.prt</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\SQLHelper.cpp</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\SQLHelper.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\SQLHelper.h</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\SQLHelper.h.prt</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\c++\TableQuery.sql</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\Script\Delete.sql</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\Script\Delete.sql.prt</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\Script\Insert.sql</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\Script\Insert.sql.prt</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\Script\Select.sql</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\Script\Select.sql.prt</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\Script\Update.sql</File>
+			<File>..\..\Item\Class Generator c++\Sql Server\Script\Update.sql.prt</File>
+		</Items>
+	</Project>
+
+	<Project>
+		<Name>MySQL Project</Name>
+		<ProjectName>MySQLProject</ProjectName>
+		<Icon>{3E3E8C0E-96E6-45D0-A443-13E495D69385}</Icon>
+		<Category>MySQL</Category>
+		<Description>
+		</Description>
+		<Items>
+			<File>.\MySQLProject.jpj</File>
+			<File>.\MySQLProject.prt</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\BaseClass.cpp</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\BaseClass.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\BaseClass.h</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\BaseClass.h.prt</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\BusinessLayer.cpp</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\BusinessLayer.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\BusinessLayer.h</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\BusinessLayer.h.prt</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\ColumnQuery.sql</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\DataAcessLayer.cpp</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\DataAcessLayer.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\DataAcessLayer.h</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\DataAcessLayer.h.prt</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\Database.dt</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\Database.dt.prt</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\DatabaseQuery.sql</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\EntityLayer.cpp</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\EntityLayer.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\EntityLayer.h</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\EntityLayer.h.prt</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\SQLHelper.cpp</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\SQLHelper.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\SQLHelper.h</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\SQLHelper.h.prt</File>
+			<File>..\..\Item\Class Generator c++\MySQL\c++\TableQuery.sql</File>
+			<File>..\..\Item\Class Generator c++\MySQL\Script\Delete.sql</File>
+			<File>..\..\Item\Class Generator c++\MySQL\Script\Delete.sql.prt</File>
+			<File>..\..\Item\Class Generator c++\MySQL\Script\Insert.sql</File>
+			<File>..\..\Item\Class Generator c++\MySQL\Script\Insert.sql.prt</File>
+			<File>..\..\Item\Class Generator c++\MySQL\Script\Select.sql</File>
+			<File>..\..\Item\Class Generator c++\MySQL\Script\Select.sql.prt</File>
+			<File>..\..\Item\Class Generator c++\MySQL\Script\Update.sql</File>
+			<File>..\..\Item\Class Generator c++\MySQL\Script\Update.sql.prt</File>
+		</Items>
+	</Project>	
+	
+	<Project>
+		<Name>PostGre SQL Project</Name>
+		<ProjectName>PostGreSQLProject</ProjectName>
+		<Icon>{3E3E8C0E-96E6-45D0-A443-13E495D69385}</Icon>
+		<Category>PostGre SQL</Category>
+		<Description>
+		</Description>
+		<Items>
+			<File>.\PostGreSQLProject.jpj</File>
+			<File>.\PostGreSQLProject.prt</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\BaseClass.cpp</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\BaseClass.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\BaseClass.h</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\BaseClass.h.prt</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\BusinessLayer.cpp</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\BusinessLayer.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\BusinessLayer.h</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\BusinessLayer.h.prt</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\ColumnQuery.sql</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\DataAcessLayer.cpp</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\DataAcessLayer.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\DataAcessLayer.h</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\DataAcessLayer.h.prt</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\Database.dt</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\Database.dt.prt</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\DatabaseQuery.sql</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\EntityLayer.cpp</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\EntityLayer.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\EntityLayer.h</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\EntityLayer.h.prt</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\SQLHelper.cpp</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\SQLHelper.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\SQLHelper.h</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\SQLHelper.h.prt</File>
+			<File>..\..\Item\Class Generator c++\PostGres\c++\TableQuery.sql</File>
+			<File>..\..\Item\Class Generator c++\PostGres\Script\Delete.sql</File>
+			<File>..\..\Item\Class Generator c++\PostGres\Script\Delete.sql.prt</File>
+			<File>..\..\Item\Class Generator c++\PostGres\Script\Insert.sql</File>
+			<File>..\..\Item\Class Generator c++\PostGres\Script\Insert.sql.prt</File>
+			<File>..\..\Item\Class Generator c++\PostGres\Script\Select.sql</File>
+			<File>..\..\Item\Class Generator c++\PostGres\Script\Select.sql.prt</File>
+			<File>..\..\Item\Class Generator c++\PostGres\Script\Update.sql</File>
+			<File>..\..\Item\Class Generator c++\PostGres\Script\Update.sql.prt</File>
+		</Items>
+	</Project>	
+	
+	<Project>
+		<Name>Oracle Project</Name>
+		<ProjectName>OracleProject</ProjectName>
+		<Icon>{3E3E8C0E-96E6-45D0-A443-13E495D69385}</Icon>
+		<Category>Oracle</Category>
+		<Description>
+		</Description>
+		<Items>
+			<File>.\OracleProject.jpj</File>
+			<File>.\OracleProject.prt</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\BaseClass.cpp</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\BaseClass.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\BaseClass.h</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\BaseClass.h.prt</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\BusinessLayer.cpp</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\BusinessLayer.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\BusinessLayer.h</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\BusinessLayer.h.prt</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\ColumnQuery.sql</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\DataAcessLayer.cpp</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\DataAcessLayer.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\DataAcessLayer.h</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\DataAcessLayer.h.prt</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\Database.dt</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\Database.dt.prt</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\DatabaseQuery.sql</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\EntityLayer.cpp</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\EntityLayer.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\EntityLayer.h</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\EntityLayer.h.prt</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\SQLHelper.cpp</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\SQLHelper.cpp.prt</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\SQLHelper.h</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\SQLHelper.h.prt</File>
+			<File>..\..\Item\Class Generator c++\Oracle\c++\TableQuery.sql</File>
+			<File>..\..\Item\Class Generator c++\Oracle\Script\Delete.sql</File>
+			<File>..\..\Item\Class Generator c++\Oracle\Script\Delete.sql.prt</File>
+			<File>..\..\Item\Class Generator c++\Oracle\Script\Insert.sql</File>
+			<File>..\..\Item\Class Generator c++\Oracle\Script\Insert.sql.prt</File>
+			<File>..\..\Item\Class Generator c++\Oracle\Script\Select.sql</File>
+			<File>..\..\Item\Class Generator c++\Oracle\Script\Select.sql.prt</File>
+			<File>..\..\Item\Class Generator c++\Oracle\Script\Update.sql</File>
+			<File>..\..\Item\Class Generator c++\Oracle\Script\Update.sql.prt</File>
+		</Items>
+	</Project>	
+</Settings>

@@ -1,0 +1,8 @@
+﻿<Settings>
+	<Version>1.0.0.0</Version>
+	<Name>MySQLProject</Name>
+	<Type>Code Generator</Type>
+	<Class>codegenerator_2000.dll</Class>
+	<PropertyFile>MySQLProject.prt</PropertyFile>
+	<ICONProject>{3E3E8C0E-96E6-45D0-A443-13E495D69385}</ICONProject>
+</Settings>

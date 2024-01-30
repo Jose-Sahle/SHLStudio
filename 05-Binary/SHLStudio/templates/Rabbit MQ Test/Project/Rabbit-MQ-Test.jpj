@@ -1,0 +1,42 @@
+﻿<Settings>
+	<Version>1.0.0.0</Version>
+	<Name>Rabbit MQ Test</Name>
+	<Type>Rabbit MQ Test</Type>
+	<Class>shlrabbitmq.dll</Class>
+	<PropertyFile>Rabbit-MQ-Test.prt</PropertyFile>
+	<ICONProject>{E2432BE2-2145-4AC2-979E-37B957FE53D3}</ICONProject>
+	<Folder>
+		<Name>Send Message</Name>
+		<ID>{53348724-5BDE-40F2-9FC3-69C77F0EE8F4}</ID>
+		<Type>Virtual</Type>
+		<Parent/>
+		<ICON>{5E3A716B-C107-4397-B021-1DC8B7887B82}</ICON>
+	</Folder>
+	<Folder>
+		<Name>Receive Message</Name>
+		<ID>{7ED33967-4BB3-4289-9B22-46812361C8BD}</ID>
+		<Type>Virtual</Type>
+		<Parent/>
+		<ICON>{5E3A716B-C107-4397-B021-1DC8B7887B82}</ICON>
+	</Folder>
+	<Item>
+		<Name>WriteXML</Name>
+		<FolderID>{53348724-5BDE-40F2-9FC3-69C77F0EE8F4}</FolderID>
+		<Type>XML</Type>
+		<FileName>WriteXML.xhw</FileName>
+		<PathType>Relative</PathType>
+		<Path>.</Path>
+		<PropertyFile>WriteXML.xhw.prt</PropertyFile>
+		<ICON>{ACA89196-4CDB-49B2-8DFF-B9AF19DFEE09}</ICON>
+	</Item>
+	<Item>
+		<Name>ReadXML</Name>
+		<FolderID>{7ED33967-4BB3-4289-9B22-46812361C8BD}</FolderID>
+		<Type>XML</Type>
+		<FileName>ReadXML.xhw</FileName>
+		<PathType>Relative</PathType>
+		<Path>.</Path>
+		<PropertyFile>ReadXML.xhw.prt</PropertyFile>
+		<ICON>{31CED5A6-04E8-4010-AB7A-77EC2AC603DB}</ICON>
+	</Item>
+</Settings>

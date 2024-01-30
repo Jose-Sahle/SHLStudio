@@ -1,0 +1,11 @@
+﻿<Settings>
+<Version>1.0.0.0</Version>
+<Name>MSController</Name>
+<Description/>
+<Project>
+<ProjectName>MSController</ProjectName>
+<ProjectFileName>MSController.jpj</ProjectFileName>
+<ProjectPath>..\Controller</ProjectPath>
+<CanBuild>0</CanBuild>
+</Project>
+</Settings>

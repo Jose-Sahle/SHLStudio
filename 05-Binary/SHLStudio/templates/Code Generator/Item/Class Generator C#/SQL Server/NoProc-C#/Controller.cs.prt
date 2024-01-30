@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<Settings>
+	<Type>CS</Type>
+	<ICON>{FC9575F8-4F93-4177-B845-85548C79EB3E}</ICON>
+	<Group Name="Misc" Description="Configuration properties">
+		<Property Name="PathType" ID="#PATHTYPE#" Caption="Path Type" Type="Collection" PropertyRelationship="" Description="Determine the pathe type" Value="Relative">
+			<Option Value="Absolute"/>
+			<Option Value="Relative"/>
+		</Property>
+		<Property Name="TargetPath" ID="#TARGETPATH#" Caption="Target Path" Type="Folder" PropertyRelationship="PathType" Description="The target path where code will be generated"  Value="..\..\Linx.ERP.Venda\Controllers" />
+		<Property Name="PrefixTargetFileName" ID="#PREFIXTARGETFILENAME#" Caption="Prefix Target File Name" Type="String" PropertyRelationship="" Description="When 'Engine' is 'Per Table' plus this suffix in the file's name"  Value="" />
+		<Property Name="SuffixTargetFileName" ID="#SUFFIXTARGETFILENAME#" Caption="Suffix Target File Name" Type="String" PropertyRelationship="" Description="When 'Engine' is 'Per Table' plus this suffix in the file's name"  Value="Controller" />
+		<Property Name="DatabaseProvider" ID="#USINGPROVIDER#" Caption="Database Provider" Type="DynamicColletion-DT" PropertyRelationship="" Description="Database used to generate the class file"  Value="Database" />
+		<Property Name="PrefixTable" ID="#PREFIXTABLE#" Caption="Prefix Table" Type="Numeric" PropertyRelationship="" Description="Size of prefix in name table  that will be removed to compose the name of the class"  Value="0" />
+		<Property Name="FirstUpperCase" ID="#FIRSTUPPERCASE#" Caption="UpperCase in First Letter" Type="Collection" PropertyRelationship="" Description="Put the first letter in upper case to target file name"  Value="">
+			<Option Value="True"/>
+			<Option Value="False"/>
+		</Property>
+		<Property Name="Engine" ID="#ENGINE#" Caption="Engine" Type="Collection" PropertyRelationship="" Description="Determine if this file will be generated once and with this name (standalone) or generated for each table (per table)." Value="Per table">
+			<Option Value="Standalone"/>
+			<Option Value="Per table"/>
+		</Property>
+	</Group>
+	<Group Name="Business Logic Layer" Description="Properties to BLL">	
+		<Property Name="NamespaceBLL" ID="#NAMESPACEBLL#" Caption="Namespace BLL" Type="String" PropertyRelationship="" Description=""  Value="Linx.ERP.Venda.BusinessLayer" />
+		<Property Name="PrefixBLL" ID="#PREFIXBLL#" Caption="Prefix" Type="String" PropertyRelationship="" Description=""  Value="" />
+		<Property Name="SuffixBLL" ID="#SUFFIXBLL#" Caption="Suffix" Type="String" PropertyRelationship="" Description=""  Value="_BL" />
+	</Group>
+	<Group Name="Database Access Layer" Description="Properties to DAL">	
+		<Property Name="NamespaceDAL" ID="#NAMESPACEDAL#" Caption="Namespace DAL" Type="String" PropertyRelationship="" Description=""  Value="Linx.ERP.Venda.DataLayer" />
+		<Property Name="PrefixDAL" ID="#PREFIXDAL#" Caption="Prefix" Type="String" PropertyRelationship="" Description=""  Value="" />
+		<Property Name="SuffixDAL" ID="#SUFFIXDAL#" Caption="Suffix" Type="String" PropertyRelationship="" Description=""  Value="_DL" />
+	</Group>
+	<Group Name="Entity Layer" Description="Properties to Entities">	
+		<Property Name="NamespaceEntity" ID="#NAMESPACEENTITY#" Caption="Namespace Entity" Type="String" PropertyRelationship="" Description=""  Value="Linx.ERP.Venda.Model" />
+		<Property Name="PrefixEntity" ID="#PREFIXENTITY#" Caption="Prefix" Type="String" PropertyRelationship="" Description=""  Value="" />
+		<Property Name="SuffixEntity" ID="#SUFFIXENTITY#" Caption="Suffix" Type="String" PropertyRelationship="" Description=""  Value="" />
+	</Group>
+	<Group Name="Controller Layer" Description="Properties to Controllers">	
+		<Property Name="NamespaceController" ID="#NAMESPACECONTROLLER#" Caption="Namespace Controller" Type="String" PropertyRelationship="" Description=""  Value="" />
+		<Property Name="PrefixController" ID="#PREFIXCONTROLLER#" Caption="Prefix" Type="String" PropertyRelationship="" Description=""  Value="" />
+		<Property Name="SuffixController" ID="#SUFFIXCONTROLLER#" Caption="Suffix" Type="String" PropertyRelationship="" Description=""  Value="" />
+	</Group>
+</Settings>

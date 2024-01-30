@@ -1,0 +1,624 @@
+<?xml version="1.0"?>
+<Settings>
+	<Categories>
+		<Name>Access</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>MySQL</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>Oracle</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>PostGre SQL</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>SQL Server</Name>
+		<Description>
+		</Description>
+	</Categories>
+
+	<Item>
+		<Name>Business Logic Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Access</Category>
+		<TemplateFile>.\Access\C#\BusinessLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\Access\C#\BusinessLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Base Database Access</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Access</Category>
+		<TemplateFile>.\Access\C#\BaseDAL.cs</TemplateFile>
+		<TemplatePropertyFile>.\Access\C#\BaseDAL.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Access</Category>
+		<TemplateFile>.\Access\C#\DataAcessLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\Access\C#\DataAcessLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Access</Category>
+		<TemplateFile>.\Access\C#\SQLHelper.cs</TemplateFile>
+		<TemplatePropertyFile>.\Access\C#\SQLHelper.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Metadata</Name>
+		<Icon>{50D23EF1-B85E-4D2C-B610-A48BEF47BAF88}</Icon>
+		<Type>DT</Type>
+		<Category>Access</Category>
+		<TemplateFile>.\Access\C#\Database.dt</TemplateFile>
+		<TemplatePropertyFile>.\Access\C#\Database.dt.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+		<Dependency>
+		</Dependency>
+	</Item>
+	<Item>
+		<Name>Base Model</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Access</Category>
+		<TemplateFile>.\Access\C#\BaseModel.cs</TemplateFile>
+		<TemplatePropertyFile>.\Access\C#\BaseDAL.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Access</Category>
+		<TemplateFile>.\Access\C#\EntityLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\Access\C#\EntityLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	
+	<Item>
+		<Name>Business Logic Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\C#\BusinessLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\C#\BusinessLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Base Database Access</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\C#\BaseDAL.cs</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\C#\BaseDAL.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\C#\DataAcessLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\C#\DataAcessLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\C#\SQLHelper.cs</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\C#\SQLHelper.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Metadata</Name>
+		<Icon>{50D23EF1-B85E-4D2C-B610-A48BEF47BAF88}</Icon>
+		<Type>DT</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\C#\Database.dt</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\C#\Database.dt.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+		<Dependency>
+			<File>
+				<Name>ColumnQuery</Name>
+				<Type>SQLServerScript</Type>
+				<FileName>ColumnQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>DatabaseQuery</Name>
+				<Type>SQLServerScript</Type>
+				<FileName>DatabaseQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>TableQuery</Name>
+				<Type>SQLServerScript</Type>
+				<FileName>TableQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+		</Dependency>
+	</Item>
+	<Item>
+		<Name>Base Model</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\C#\BaseModel.cs</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\C#\BaseDAL.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\C#\EntityLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\C#\EntityLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Insert Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>SQLServerScript</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\Script\Insert.sql</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\Script\Insert.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Update Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>SQLServerScript</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\Script\Update.sql</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\Script\Update.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Delete Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>SQLServerScript</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\Script\Delete.sql</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\Script\Delete.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Select Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>SQLServerScript</Type>
+		<Category>SQL Server</Category>
+		<TemplateFile>.\SQL Server\Script\Select.sql</TemplateFile>
+		<TemplatePropertyFile>.\SQL Server\Script\Select.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>	
+	<Item>
+		<Name>Business Logic Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\C#\BusinessLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\C#\BusinessLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Base Database Access</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\C#\BaseDAL.cs</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\C#\BaseDAL.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\C#\DataAcessLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\C#\DataAcessLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\C#\SQLHelper.cs</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\C#\SQLHelper.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Metadata</Name>
+		<Icon>{50D23EF1-B85E-4D2C-B610-A48BEF47BAF88}</Icon>
+		<Type>DT</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\C#\Database.dt</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\C#\Database.dt.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+		<Dependency>
+			<File>
+				<Name>ColumnQuery</Name>
+				<Type>PostGresScript</Type>
+				<FileName>ColumnQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>DatabaseQuery</Name>
+				<Type>PostGresScript</Type>
+				<FileName>DatabaseQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>TableQuery</Name>
+				<Type>PostGresScript</Type>
+				<FileName>TableQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+		</Dependency>
+	</Item>
+	<Item>
+		<Name>Base Model</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\C#\BaseModel.cs</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\C#\BaseDAL.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\C#\EntityLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\C#\EntityLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Insert Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>PostGresScript</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\Script\Insert.sql</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\Script\Insert.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Update Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>PostGresScript</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\Script\Update.sql</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\Script\Update.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Delete Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>PostGresScript</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\Script\Delete.sql</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\Script\Delete.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Select Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>PostGresScript</Type>
+		<Category>PostGre SQL</Category>
+		<TemplateFile>.\PostGres\Script\Select.sql</TemplateFile>
+		<TemplatePropertyFile>.\PostGres\Script\Select.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	
+	<Item>
+		<Name>Business Logic Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\C#\BusinessLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\C#\BusinessLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Base Database Access</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\C#\BaseDAL.cs</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\C#\BaseDAL.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\C#\DataAcessLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\C#\DataAcessLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\C#\SQLHelper.cs</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\C#\SQLHelper.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Metadata</Name>
+		<Icon>{50D23EF1-B85E-4D2C-B610-A48BEF47BAF88}</Icon>
+		<Type>DT</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\C#\Database.dt</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\C#\Database.dt.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+		<Dependency>
+			<File>
+				<Name>ColumnQuery</Name>
+				<Type>MySQLScript</Type>
+				<FileName>ColumnQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>DatabaseQuery</Name>
+				<Type>MySQLScript</Type>
+				<FileName>DatabaseQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>TableQuery</Name>
+				<Type>MySQLScript</Type>
+				<FileName>TableQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+		</Dependency>
+	</Item>
+	<Item>
+		<Name>Base Model</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\C#\BaseModel.cs</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\C#\BaseDAL.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\C#\EntityLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\C#\EntityLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Insert Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>MySQLScript</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\Script\Insert.sql</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\Script\Insert.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Update Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>MySQLScript</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\Script\Update.sql</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\Script\Update.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Delete Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>MySQLScript</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\Script\Delete.sql</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\Script\Delete.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Select Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>MySQLScript</Type>
+		<Category>MySQL</Category>
+		<TemplateFile>.\MySQL\Script\Select.sql</TemplateFile>
+		<TemplatePropertyFile>.\MySQL\Script\Select.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+
+	<Item>
+		<Name>Business Logic Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\C#\BusinessLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\C#\BusinessLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Base Database Access</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\C#\BaseDAL.cs</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\C#\BaseDAL.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\C#\DataAcessLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\C#\DataAcessLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\C#\SQLHelper.cs</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\C#\SQLHelper.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Metadata</Name>
+		<Icon>{50D23EF1-B85E-4D2C-B610-A48BEF47BAF88}</Icon>
+		<Type>DT</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\C#\Database.dt</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\C#\Database.dt.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+		<Dependency>
+			<File>
+				<Name>ColumnQuery</Name>
+				<Type>OracleScript</Type>
+				<FileName>ColumnQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>DatabaseQuery</Name>
+				<Type>OracleScript</Type>
+				<FileName>DatabaseQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>TableQuery</Name>
+				<Type>OracleScript</Type>
+				<FileName>TableQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+		</Dependency>
+	</Item>
+	<Item>
+		<Name>Base Model</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\C#\BaseModel.cs</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\C#\BaseDAL.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\C#\EntityLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\C#\EntityLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Insert Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>OracleScript</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\Script\Insert.sql</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\Script\Insert.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Update Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>OracleScript</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\Script\Update.sql</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\Script\Update.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Delete Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>OracleScript</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\Script\Delete.sql</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\Script\Delete.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Select Script</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>OracleScript</Type>
+		<Category>Oracle</Category>
+		<TemplateFile>.\Oracle\Script\Select.sql</TemplateFile>
+		<TemplatePropertyFile>.\Oracle\Script\Select.sql.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>	
+</Settings>

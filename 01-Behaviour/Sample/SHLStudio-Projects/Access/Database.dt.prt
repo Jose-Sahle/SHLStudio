@@ -1,0 +1,49 @@
+﻿<?xml version="1.0"?>
+<Settings>
+	<Type>DT</Type>
+	<ICON>{FC9575F8-4F93-4177-B845-85548C79EB3E}</ICON>
+	<ICONDependency>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICONDependency>
+	<TypeDependency>SQLServerScript</TypeDependency>
+	<Group Name="Generate Connection" Description="Connection used to generate the database XML">
+		<Property Name="ConnectionType" ID="#CONNECTIONTYPE#" Caption="Type" Type="Collection" Description="Determine the type of connection (sample: MySQL/MS-Sql Server/Postgres)" Value="Access">
+			<Option Value="Access"/>
+			<Option Value="MS-Sql Server"/>
+			<Option Value="MySQL"/>
+			<Option Value="PostGres"/>
+			<Option Value="Oracle"/>
+		</Property>
+		<Property Name="ConnectionServer" ID="#CONNECTIONSERVER#" Caption="Server" Type="String" Description="The database server used to generate the XML Database file"  Value="" />
+		<Property Name="ConnectionDataSource" ID="#CONNECTIONDATASOURCE#" Caption="Data Source" Type="String" Description=""  Value="" />
+		<Property Name="ConnectionDatabase" ID="#CONNECTIONDATABASE#" Caption="Database" Type="String" Description="The database name used to generate the XML Database file"  Value="C:\3PPVende\cep.mdb" />
+		<Property Name="ConnectionUser" ID="#CONNECTIONUSER#" Caption="User" Type="String" Description="User used to connect the database"  Value="" />
+		<Property Name="ConnectionPwd" ID="#CONNECTIONPWD#" Caption="Password" Type="Password" Description="Password used to connect the database"  Value="" />
+	</Group>
+	<Group Name="Production Connection"  Description="Connection that is used inside the source-code to connect the database">
+		<Property Name="ProductionConnectionType" ID="#PRODUCTIONCONNECTIONTYPE#" Caption="Type" Type="Collection" Description="Determine the type of connection (sample: MySQL/MS-Sql Server/Postgres)"  Value="Access" >
+			<Option Value="Access"/>
+			<Option Value="MS-Sql Server"/>
+			<Option Value="MySQL"/>
+			<Option Value="PostGres"/>
+			<Option Value="Oracle"/>
+		</Property>
+		<Property Name="ProductionConnectionServer" ID="#PRODUCTIONCONNECTIONSERVER#" Caption="Server" Type="String" Description="The database server to connect database inside the system generated"  Value="" />
+		<Property Name="ConnectionDataSource" ID="#CONNECTIONDATASOURCE#" Caption="Data Source" Type="String" Description=""  Value="" />
+		<Property Name="ProductionConnectionDatabase" ID="#PRODUCTIONCONNECTIONDATABASE#" Caption="Database" Type="String" Description="The database name to connect database inside the system generated"  Value="C:\3PPVende\cep.mdb" />
+		<Property Name="ProductionConnectionUser" ID="#PRODUCTIONCONNECTIONUSER#" Caption="User" Type="String" Description="Username name used to connect database inside the system generated"  Value="" />
+		<Property Name="ProductionConnectionPwd" ID="#PRODUCTIONCONNECTIONPWD#" Caption="Password" Type="Password" Description="Password name used to connect database inside the system generated"  Value="" />
+	</Group>	
+	<Group Name="Debug Connection"  Description="Connection that is used inside the source-code to connect the database in debug mode">
+		<Property Name="DebugConnectionType" ID="#DEBUGCONNECTIONTYPE#" Caption="Type" Type="Collection" Description="Determine the type of connection (sample: MySQL/MS-Sql Server/Postgres)"  Value="Access" >
+			<Option Value="Access"/>
+			<Option Value="MS-Sql Server"/>
+			<Option Value="MySQL"/>
+			<Option Value="PostGres"/>
+			<Option Value="Oracle"/>
+		</Property>
+		<Property Name="DebugConnectionServer" ID="#DEBUGCONNECTIONSERVER#" Caption="Server" Type="String" Description="The database server to connect database inside the system generated in debug mode"  Value="" />
+		<Property Name="ConnectionDataSource" ID="#CONNECTIONDATASOURCE#" Caption="Data Source" Type="String" Description=""  Value="" />
+		<Property Name="DebugConnectionDatabase" ID="#DEBUGCONNECTIONDATABASE#" Caption="Database" Type="String" Description="The database name to connect database inside the system generated in debug mode"  Value="C:\3PPVende\cep.mdb" />
+		<Property Name="DebugConnectionUser" ID="#DEBUGCONNECTIONUSER#" Caption="User" Type="String" Description="Username name used to connect database inside the system generated in debug mode"  Value="" />
+		<Property Name="DebugConnectionPwd" ID="#DEBUGCONNECTIONPWD#" Caption="Passowrd" Type="Password" Description="Password name used to connect database inside the system generated in debug mode"  Value="" />
+	</Group>	
+</Settings>

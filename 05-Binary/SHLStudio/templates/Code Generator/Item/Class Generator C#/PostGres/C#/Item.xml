@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<Settings>
+	<Categories>
+		<Name>Business Layer</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>Database Logic Layer</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>Entity</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Item>
+		<Name>Business Logic Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Business Layer</Category>
+		<TemplateFile>.\BusinessLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\BusinessLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Base Database Access</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\BaseDAL.cs</TemplateFile>
+		<TemplatePropertyFile>.\BaseDAL.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\DataAcessLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\DataAcessLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\SQLHelper.cs</TemplateFile>
+		<TemplatePropertyFile>.\SQLHelper.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Metadata</Name>
+		<Icon>{50D23EF1-B85E-4D2C-B610-A48BEF47BAF88}</Icon>
+		<Type>DT</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\Database.dt</TemplateFile>
+		<TemplatePropertyFile>.\Database.dt.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+		<Dependency>
+			<File>
+				<Name>ColumnQuery</Name>
+				<Type>PostGresScript</Type>
+				<FileName>ColumnQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>DatabaseQuery</Name>
+				<Type>PostGresScript</Type>
+				<FileName>DatabaseQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+			<File>
+				<Name>TableQuery</Name>
+				<Type>PostGresScript</Type>
+				<FileName>TableQuery.sql</FileName>
+				<ICON>{CFD3347F-4C83-4EED-8F31-A48A511C3CAB}</ICON>
+			</File>
+		</Dependency>
+	</Item>
+	<Item>
+		<Name>Base Model</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Entity</Category>
+		<TemplateFile>.\BaseModel.cs</TemplateFile>
+		<TemplatePropertyFile>.\BaseDAL.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>CS</Type>
+		<Category>Entity</Category>
+		<TemplateFile>.\EntityLayer.cs</TemplateFile>
+		<TemplatePropertyFile>.\EntityLayer.cs.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+</Settings>

@@ -1,0 +1,11 @@
+﻿<Settings>
+<Version>1.0.0.0</Version>
+<Name>OracleProject</Name>
+<Description/>
+<Project>
+<ProjectName>OracleProject</ProjectName>
+<ProjectFileName>OracleProject.jpj</ProjectFileName>
+<ProjectPath>..\Oracle</ProjectPath>
+<CanBuild>0</CanBuild>
+</Project>
+</Settings>

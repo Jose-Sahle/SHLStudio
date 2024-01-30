@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<Settings>
+	<Categories>
+		<Name>Business Layer</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>Database Logic Layer</Name>
+		<Description>
+		</Description>
+	</Categories>
+	<Categories>
+		<Name>Database Script</Name>
+		<Description>
+		</Description>
+	</Categories>	
+	<Categories>
+		<Name>Entity</Name>
+		<Description>
+		</Description>
+	</Categories>
+	
+	<Item>
+		<Name>Business Logic Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Business Layer</Category>
+		<TemplateFile>.\C++\BusinessLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\C++\BusinessLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Business Logic Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Business Layer</Category>
+		<TemplateFile>.\C++\BusinessLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\C++\BusinessLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Base Database Access</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\C++\BaseClass.h</TemplateFile>
+		<TemplatePropertyFile>.\C++\BaseClass.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\C++\DataAcessLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\C++\DataAcessLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Data Access Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\C++\DataAcessLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\C++\DataAcessLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\C++\SQLHelper.cpp</TemplateFile>
+		<TemplatePropertyFile>.\C++\SQLHelper.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>SQL Helper (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Database Logic Layer</Category>
+		<TemplateFile>.\C++\SQLHelper.h</TemplateFile>
+		<TemplatePropertyFile>.\C++\SQLHelper.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer (.CPP)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Entity</Category>
+		<TemplateFile>.\C++\EntityLayer.cpp</TemplateFile>
+		<TemplatePropertyFile>.\C++\EntityLayer.cpp.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+	<Item>
+		<Name>Entity Layer (.H)</Name>
+		<Icon>{FC9575F8-4F93-4177-B845-85548C79EB3E}</Icon>
+		<Type>C++</Type>
+		<Category>Entity</Category>
+		<TemplateFile>.\C++\EntityLayer.h</TemplateFile>
+		<TemplatePropertyFile>.\C++\EntityLayer.h.prt</TemplatePropertyFile>
+		<Description>
+		</Description>
+	</Item>
+</Settings>

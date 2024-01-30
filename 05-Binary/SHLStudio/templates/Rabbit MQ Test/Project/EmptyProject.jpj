@@ -1,0 +1,8 @@
+﻿<Settings>
+	<Version>1.0.0.0</Version>
+	<Name>Rabbit MQ Test</Name>
+	<Type>Rabbit MQ Test</Type>
+	<Class>shlrabbitmq.dll</Class>
+	<PropertyFile>EmptyProject.prt</PropertyFile>
+	<ICONProject>{E2432BE2-2145-4AC2-979E-37B957FE53D3}</ICONProject>
+</Settings>

@@ -1,0 +1,64 @@
+<Settings>
+<Table Name="gp_agendamento">
+<Field Name="idAgendamento" PrimaryKey="1" Identity="1" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="idRotina" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="1" TableForeignKey="gp_rotina"/>
+<Field Name="DataInicio" PrimaryKey="0" Identity="0" DBType="DateTime" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="HoraInicio" PrimaryKey="0" Identity="0" DBType="String" DBSize="8" ForeignKey="0" TableForeignKey=""/>
+<Field Name="DataFim" PrimaryKey="0" Identity="0" DBType="DateTime" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="HoraFim" PrimaryKey="0" Identity="0" DBType="String" DBSize="8" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Intervalo" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Repeticao" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+</Table>
+<Table Name="gp_dll">
+<Field Name="idDLL" PrimaryKey="1" Identity="1" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="idRotina" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="1" TableForeignKey="gp_rotina"/>
+<Field Name="Ordem" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Nome" PrimaryKey="0" Identity="0" DBType="String" DBSize="100" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Assembly" PrimaryKey="0" Identity="0" DBType="String" DBSize="100" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Dependencia" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+</Table>
+<Table Name="gp_dllparametros">
+<Field Name="idDLLParametros" PrimaryKey="1" Identity="1" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="idDLL" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="1" TableForeignKey="gp_dll"/>
+<Field Name="Nome" PrimaryKey="0" Identity="0" DBType="String" DBSize="50" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Valor" PrimaryKey="0" Identity="0" DBType="String" DBSize="8000" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Tipo" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Formato" PrimaryKey="0" Identity="0" DBType="String" DBSize="2" ForeignKey="0" TableForeignKey=""/>
+</Table>
+<Table Name="gp_email">
+<Field Name="idEMAIL" PrimaryKey="1" Identity="1" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="idRotina" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="1" TableForeignKey="gp_rotina"/>
+<Field Name="FROM" PrimaryKey="0" Identity="0" DBType="String" DBSize="8000" ForeignKey="0" TableForeignKey=""/>
+<Field Name="TO" PrimaryKey="0" Identity="0" DBType="String" DBSize="8000" ForeignKey="0" TableForeignKey=""/>
+<Field Name="SUBJECT" PrimaryKey="0" Identity="0" DBType="String" DBSize="500" ForeignKey="0" TableForeignKey=""/>
+<Field Name="TYPE" PrimaryKey="0" Identity="0" DBType="String" DBSize="5" ForeignKey="0" TableForeignKey=""/>
+<Field Name="BODY" PrimaryKey="0" Identity="0" DBType="String" DBSize="8000" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Classificacao" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Anexo" PrimaryKey="0" Identity="0" DBType="String" DBSize="8000" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Ativo" PrimaryKey="0" Identity="0" DBType="Boolean" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+</Table>
+<Table Name="gp_exceptions">
+<Field Name="idExceptions" PrimaryKey="1" Identity="1" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="idRotina" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="1" TableForeignKey="gp_rotina"/>
+<Field Name="Tentativa" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Intervalo" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="EnviarEmail" PrimaryKey="0" Identity="0" DBType="Boolean" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="EnviarUltimoEmail" PrimaryKey="0" Identity="0" DBType="Boolean" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+</Table>
+<Table Name="gp_periodicidade">
+<Field Name="idPeriodicidade" PrimaryKey="1" Identity="1" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="idRotina" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="1" TableForeignKey="gp_rotina"/>
+<Field Name="Tipo" PrimaryKey="0" Identity="0" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Parametro" PrimaryKey="0" Identity="0" DBType="String" DBSize="100" ForeignKey="0" TableForeignKey=""/>
+</Table>
+<Table Name="gp_rotina">
+<Field Name="idRotina" PrimaryKey="1" Identity="1" DBType="Int32" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Nome" PrimaryKey="0" Identity="0" DBType="String" DBSize="50" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Decricao" PrimaryKey="0" Identity="0" DBType="String" DBSize="255" ForeignKey="0" TableForeignKey=""/>
+<Field Name="DataCriacao" PrimaryKey="0" Identity="0" DBType="DateTime" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Usuario" PrimaryKey="0" Identity="0" DBType="String" DBSize="20" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Funcional" PrimaryKey="0" Identity="0" DBType="String" DBSize="20" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Ativo" PrimaryKey="0" Identity="0" DBType="Boolean" DBSize="0" ForeignKey="0" TableForeignKey=""/>
+<Field Name="Apelido" PrimaryKey="0" Identity="0" DBType="String" DBSize="50" ForeignKey="0" TableForeignKey=""/>
+</Table>
+</Settings>

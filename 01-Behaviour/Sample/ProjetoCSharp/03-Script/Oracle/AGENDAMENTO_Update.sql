@@ -1,0 +1,37 @@
+
+/**********************************************************
+  AUTHOR	: 
+  VERSION	: 1.0.0.0
+  DATE		: 08/04/2014 09:03:44
+  FUNCTION	: Update a record in the table GP_AGENDAMENTO
+**********************************************************/
+/*Create the SQL for the stored procedure*/
+CREATE OR REPLACE PROCEDURE AGENDAMENTO_Update
+(
+	var_IDAGENDAMENTO IN INTEGER,
+	var_IDROTINA IN INTEGER,
+	var_DATAINICIO IN DATE,
+	var_HORAINICIO IN VARCHAR2,
+	var_DATAFIM IN DATE,
+	var_HORAFIM IN VARCHAR2,
+	var_INTERVALO IN INTEGER,
+	var_REPETICAO IN INTEGER
+)
+IS 
+BEGIN
+	UPDATE 
+		GP_AGENDAMENTO 
+	SET
+		IDROTINA = var_IDROTINA
+		,DATAINICIO = var_DATAINICIO
+		,HORAINICIO = var_HORAINICIO
+		,DATAFIM = var_DATAFIM
+		,HORAFIM = var_HORAFIM
+		,INTERVALO = var_INTERVALO
+		,REPETICAO = var_REPETICAO
+	WHERE 
+		IDAGENDAMENTO = var_IDAGENDAMENTO;
+		
+END AGENDAMENTO_Update;
+GO
+

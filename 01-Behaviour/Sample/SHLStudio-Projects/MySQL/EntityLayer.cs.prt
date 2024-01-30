@@ -1,0 +1,34 @@
+﻿<?xml version="1.0"?>
+<Settings>
+	<Type>CS</Type>
+	<ICON>{FC9575F8-4F93-4177-B845-85548C79EB3E}</ICON>
+	<Group Name="Misc" Description="Configuration properties">
+		<Property Name="PathType" ID="#PATHTYPE#" Caption="Path Type" Type="Collection" PropertyRelationship="" Description="Determine the pathe type" Value="Relative">
+			<Option Value="Absolute"/>
+			<Option Value="Relative"/>
+		</Property>
+		<Property Name="TargetPath" ID="#TARGETPATH#" Caption="Target Path" Type="Folder" PropertyRelationship="PathType" Description="The target path where code will be generated"  Value="..\..\ProjetoCSharp\04-Source\MySQL\Entity" />
+		<Property Name="SuffixTargetFileName" ID="#SUFFIXTARGETFILENAME#" Caption="Suffix Target File Name" Type="String" PropertyRelationship="" Description="When 'Engine' is 'Per Table' plus this suffix in the file's name"  Value="" />
+		<Property Name="DatabaseProvider" ID="#USINGPROVIDER#" Caption="Database Provider" Type="DynamicColletion-DT" PropertyRelationship="" Description="Database used to generate the class file"  Value="Database" />
+		<Property Name="PrefixTable" ID="#PREFIXTABLE#" Caption="Prefix Table" Type="Numeric" PropertyRelationship="" Description="Size of prefix in name table  that will be removed to compose the name of the class"  Value="3" />
+		<Property Name="Engine" ID="#ENGINE#" Caption="Engine" Type="Collection" PropertyRelationship="" Description="Determine if this file will be generated once and with this name (standalone) or generated for each table (per table)." Value="Per table">
+			<Option Value="Standalone"/>
+			<Option Value="Per table"/>
+		</Property>
+	</Group>
+	<Group Name="Business Logic Layer" Description="Properties to BLL">	
+		<Property Name="NamespaceBLL" ID="#NAMESPACEBLL#" Caption="Namespace BLL" Type="String" PropertyRelationship="" Description=""  Value="GPRotina.BLL" />
+		<Property Name="PrefixBLL" ID="#PREFIXBLL#" Caption="Prefix" Type="String" PropertyRelationship="" Description=""  Value="" />
+		<Property Name="SuffixBLL" ID="#SUFFIXBLL#" Caption="Suffix" Type="String" PropertyRelationship="" Description=""  Value="BLL" />
+	</Group>
+	<Group Name="Database Access Layer" Description="Properties to DAL">	
+		<Property Name="NamespaceDAL" ID="#NAMESPACEDAL#" Caption="Namespace DAL" Type="String" PropertyRelationship="" Description=""  Value="GPRotina.DAL" />
+		<Property Name="PrefixDAL" ID="#PREFIXDAL#" Caption="Prefix" Type="String" PropertyRelationship="" Description=""  Value="" />
+		<Property Name="SuffixDAL" ID="#SUFFIXDAL#" Caption="Suffix" Type="String" PropertyRelationship="" Description=""  Value="DAL" />
+	</Group>
+	<Group Name="Entity Layer" Description="Properties to Entities">	
+		<Property Name="NamespaceEntity" ID="#NAMESPACEENTITY#" Caption="Namespace Entity" Type="String" PropertyRelationship="" Description=""  Value="GPRotina.Entity" />
+		<Property Name="PrefixEntity" ID="#PREFIXENTITY#" Caption="Prefix" Type="String" PropertyRelationship="" Description=""  Value="" />
+		<Property Name="SuffixEntity" ID="#SUFFIXENTITY#" Caption="Suffix" Type="String" PropertyRelationship="" Description=""  Value="" />
+	</Group>
+</Settings>

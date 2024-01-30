@@ -1,0 +1,6 @@
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Entity\bin\Debug\GPRotinaEntity.dll
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Entity\bin\Debug\GPRotinaEntity.pdb
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Entity\obj\Debug\GPRotinaEntity.csproj.AssemblyReference.cache
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Entity\obj\Debug\GPRotinaEntity.csproj.CoreCompileInputs.cache
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Entity\obj\Debug\GPRotinaEntity.dll
+C:\Biblioteca\Projetos\shlinfo\VisualCPP\SHLStudio\01-Ambiente\Sample\ProjetoCSharp\04-Source\SQLServer\Entity\obj\Debug\GPRotinaEntity.pdb

@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CalendarBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProjectAndFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SHLStudio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SHLStudioDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SHLStudioView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionExplorerView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerExplorerView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UGCtrlEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigurationManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CalendarBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SHLStudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SHLStudioDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SHLStudioView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProjectAndFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionExplorerView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemEntity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectEntity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionEntity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FolderEntity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="IconEntity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ISHLStudioProject.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerExplorerView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SHLDataConnection.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="QueryDataConnectionEntity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="DeclarationType.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="UGCtrlEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigurationManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\buttons.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\class_view.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\file_view.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\filelarge.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\filesmall.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\info.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\main.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\nav_large.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\nav_large_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\output_wnd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\output_wnd_hc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pages.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pages_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pages_small.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\pages_small_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SHLStudio.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SHLStudioDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\solutionview.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\solutionview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\writelarge.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\writesmall.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\shlexpandarrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\shlcollapsearrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\shlcollapsearrow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\shlexpandarrow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\puzzle.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\data_add.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\data_connection.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\data_delete.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\data_disk.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\data.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\data_ok.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\table_sql.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\column.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\data_folder.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\data_lock.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\gears.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Key-icon.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\constraint.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\index.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\trigger.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sequence.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\data_connection_add.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\data_connection_save.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ToolBarSQL.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ToolBarSQL_Large.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ToolBarSQL_Large.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ToolBarSQL_Large_Trans.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\ToolBarSQL_Small.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\toolbarserverexplorer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\refresh_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\data_connection_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\data_delete_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SHLStudio.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\idr_data.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bc7a54a3-35d1-4fc1-afbd-8b1015d6e223}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{440a71e4-0413-4280-b63c-037b6eee5af9}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{11dabb17-e396-4b02-8a34-3c67cac11353}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{74f02d3a-fdb4-4a51-bec6-5716ff1543ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{73eaf545-1a64-4830-8f14-876578266d2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SHLStudio.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

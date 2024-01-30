@@ -1,0 +1,8 @@
+﻿<Settings>
+	<Version>1.0.0.0</Version>
+	<Name>DotNetNuke Module</Name>
+	<Type>Code Generator</Type>
+	<Class>dotnetnukegenerator.dll</Class>
+	<PropertyFile>EmptyProject.prt</PropertyFile>
+	<ICONProject>{0F879BF7-31F2-4209-9F5D-BC0D356B2D85}</ICONProject>
+</Settings>

@@ -1,0 +1,11 @@
+﻿<Settings>
+<Version>1.0.0.0</Version>
+<Name>MySQLProject</Name>
+<Description/>
+<Project>
+<ProjectName>MySQLProject</ProjectName>
+<ProjectFileName>MySQLProject.jpj</ProjectFileName>
+<ProjectPath>..\MySQL</ProjectPath>
+<CanBuild>0</CanBuild>
+</Project>
+</Settings>

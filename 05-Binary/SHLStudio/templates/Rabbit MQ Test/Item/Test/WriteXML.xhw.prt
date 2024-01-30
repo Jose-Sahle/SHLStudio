@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<Settings>
+	<Type>CS</Type>
+	<ICON>{FC9575F8-4F93-4177-B845-85548C79EB3E}</ICON>
+	<Group Name="Misc" Description="Configuration properties">
+		<Property Name="Type" ID="#TYPE#" Caption="Type" Type="String" ReadOnly="True" PropertyRelationship="" Description="" Value="Send" />
+		<Property Name="RabbitServerIP" ID="#RABBITSERVERIP#" Caption="Rabbit Server IP" Type="IP" PropertyRelationship="" Description="The Rabbit MQ Server IP"  Value="" />
+		<Property Name="RabbitServerPort" ID="#RABBITSERVERPORT#" Caption="Rabbit Server Port" Type="INT" PropertyRelationship="" Description="The Rabbit MQ Server Port"  Value="" />
+		<Property Name="UserName" ID="#UserName#" Caption="User Name" Type="String" PropertyRelationship="" Description="Rabbit MQ User"  Value="" />
+		<Property Name="Password" ID="#Password#" Caption="Password" Type="Password" PropertyRelationship="" Description="Password to get access to Rabbit MQ"  Value="" />
+		<Property Name="ExchangeName" ID="#EXCHANGENAME#" Caption="Exchange Name" Type="String" PropertyRelationship="" Description=""  Value="" />
+		<Property Name="QueueName" ID="#QUEUENAME#" Caption="Queue Name" Type="String" PropertyRelationship="" Description="The queue name that you want send a XML"  Value="" />
+		<Property Name="QueuePrefix" ID="#QUEUEPREFIX#" Caption="Queue Prefix" Type="String" PropertyRelationship="" Description="The queue prefix"  Value="" />
+	</Group>
+</Settings>

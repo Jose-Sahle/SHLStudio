@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<Settings>
+	<Categories>
+		<Name>Rabbit MQ Test</Name>
+		<Description>
+		</Description>
+	</Categories>
+	
+	<Project>
+		<Name>Empy Project</Name>
+		<ProjectName>Rabbit MQ Test</ProjectName>
+		<Icon>{E2432BE2-2145-4AC2-979E-37B957FE53D3}</Icon>
+		<Category>Rabbit MQ Test</Category>
+		<Description>
+		</Description>
+		<Items>
+			<File>.\EmptyProject.jpj</File>
+			<File>.\EmptyProject.prt</File>
+		</Items>
+	</Project>
+	<Project>
+		<Name>RabbitMQ Test Project</Name>
+		<ProjectName>Rabbit-MQ-Test</ProjectName>
+		<Icon>{E2432BE2-2145-4AC2-979E-37B957FE53D3}</Icon>
+		<Category>Rabbit MQ Test</Category>
+		<Description>
+		</Description>
+		<Items>
+			<File>.\Rabbit-MQ-Test.jpj</File>
+			<File>.\Rabbit-MQ-Test.prt</File>
+			<File>..\Item\Test\ReadXML.xhw</File>
+			<File>..\Item\Test\ReadXML.xhw.prt</File>
+			<File>..\Item\Test\WriteXML.xhw</File>
+			<File>..\Item\Test\WriteXML.xhw.prt</File>
+		</Items>
+	</Project>
+</Settings>

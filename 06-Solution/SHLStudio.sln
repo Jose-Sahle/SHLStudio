@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SHLStudio", "..\04-Source\SHLStudio\SHLStudio.vcxproj", "{5DDDC7DF-29D9-46CA-A2F5-C2CD92E3A709}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shlquery", "..\04-Source\shlquery\shlquery.vcxproj", "{3F625BF2-6274-4EB0-B58B-326DC1075D4D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "codegenerator", "..\04-Source\codegenerator\codegenerator.vcxproj", "{A2DEF11C-BA19-43E3-9B93-61A036196B3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DDDC7DF-29D9-46CA-A2F5-C2CD92E3A709}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5DDDC7DF-29D9-46CA-A2F5-C2CD92E3A709}.Debug|Win32.Build.0 = Debug|Win32
+		{5DDDC7DF-29D9-46CA-A2F5-C2CD92E3A709}.Release|Win32.ActiveCfg = Release|Win32
+		{5DDDC7DF-29D9-46CA-A2F5-C2CD92E3A709}.Release|Win32.Build.0 = Release|Win32
+		{3F625BF2-6274-4EB0-B58B-326DC1075D4D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F625BF2-6274-4EB0-B58B-326DC1075D4D}.Debug|Win32.Build.0 = Debug|Win32
+		{3F625BF2-6274-4EB0-B58B-326DC1075D4D}.Release|Win32.ActiveCfg = Release|Win32
+		{3F625BF2-6274-4EB0-B58B-326DC1075D4D}.Release|Win32.Build.0 = Release|Win32
+		{A2DEF11C-BA19-43E3-9B93-61A036196B3B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A2DEF11C-BA19-43E3-9B93-61A036196B3B}.Debug|Win32.Build.0 = Debug|Win32
+		{A2DEF11C-BA19-43E3-9B93-61A036196B3B}.Release|Win32.ActiveCfg = Release|Win32
+		{A2DEF11C-BA19-43E3-9B93-61A036196B3B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E89AFF2-4113-4BE4-91E0-2881F0C1BADC}
+	EndGlobalSection
+EndGlobal

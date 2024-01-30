@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5DDDC7DF-29D9-46CA-A2F5-C2CD92E3A709}</ProjectGuid>
+    <RootNamespace>SHLStudio</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <SpectreMitigation>false</SpectreMitigation>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(ProjectDir)..\..\05-Binary\Header;$(ProjectDir)..\..\05-Binary\Header\UltimateGrid;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)..\..\05-Binary\Lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(ProjectDir)..\..\05-Binary\SHLStudio\</OutDir>
+    <IntDir>$(ProjectDir)..\..\05-Binary\SHLStudio_tmp\$(ProjectName)$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)..\..\05-Binary\SHLStudio\</OutDir>
+    <IncludePath>$(IncludePath);$(ProjectDir)..\..\05-Binary\Header;$(ProjectDir)..\..\05-Binary\Header\UltimateGrid</IncludePath>
+    <LibraryPath>$(ProjectDir)..\..\05-Binary\Lib;$(LibraryPath)</LibraryPath>
+    <IntDir>$(ProjectDir)..\..\05-Binary\SHLStudio_tmp\$(ProjectName)$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>Default</LanguageStandard>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <AdditionalDependencies>shlmarkupud.lib;shllibraryud.lib;SHLPathud.lib;SHLUltimateGridud.lib;shloledbclient32ud.lib</AdditionalDependencies>
+      <OutputFile>$(TargetPath)</OutputFile>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>copy /y "$(ProjectDir)ISHLStudioProject.h" "$(ProjectDir)..\..\05-Binary\Bin\Header
+copy /y "$(ProjectDir)SHLDataConnection.h" "$(ProjectDir)..\..\05-Binary\Bin\Header
+copy /y "$(ProjectDir)SolutionEntity.h" "$(ProjectDir)..\..\05-Binary\Bin\Header
+copy /y "$(ProjectDir)ProjectEntity.h" "$(ProjectDir)..\..\05-Binary\Bin\Header
+copy /y "$(ProjectDir)ItemEntity.h" "$(ProjectDir)..\..\05-Binary\Bin\Header
+copy /y "$(ProjectDir)IconEntity.h" "$(ProjectDir)..\..\05-Binary\Bin\Header
+copy /y "$(ProjectDir)FolderEntity.h" "$(ProjectDir)..\..\05-Binary\Bin\Header
+copy /y "$(ProjectDir)QueryDataConnectionEntity.h" "$(ProjectDir)..\..\05-Binary\Bin\Header
+</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>shlmarkupu.lib;shllibraryu.lib;SHLPathu.lib;SHLUltimateGridu.lib;shloledbclient32u.lib</AdditionalDependencies>
+      <OutputFile>$(TargetPath)</OutputFile>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>copy /y "$(ProjectDir)ISHLStudioProject.h" "$(ProjectDir)..\..\05-Binary\Bin\Header
+copy /y "$(ProjectDir)SHLDataConnection.h" "$(ProjectDir)..\..\05-Binary\Bin\Header
+copy /y "$(ProjectDir)SolutionEntity.h" "$(ProjectDir)..\..\05-Binary\Bin\Header
+copy /y "$(ProjectDir)ProjectEntity.h" "$(ProjectDir)..\..\05-Binary\Bin\Header
+copy /y "$(ProjectDir)ItemEntity.h" "$(ProjectDir)..\..\05-Binary\Bin\Header
+copy /y "$(ProjectDir)IconEntity.h" "$(ProjectDir)..\..\05-Binary\Bin\Header
+copy /y "$(ProjectDir)FolderEntity.h" "$(ProjectDir)..\..\05-Binary\Bin\Header
+copy /y "$(ProjectDir)QueryDataConnectionEntity.h" "$(ProjectDir)..\..\05-Binary\Bin\Header
+</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CalendarBar.h" />
+    <ClInclude Include="ChildFrm.h" />
+    <ClInclude Include="ClassView.h" />
+    <ClInclude Include="ConfigurationManager.h" />
+    <ClInclude Include="DeclarationType.h" />
+    <ClInclude Include="DlgProjectAndFile.h" />
+    <ClInclude Include="FolderEntity.h" />
+    <ClInclude Include="IconEntity.h" />
+    <ClInclude Include="ISHLStudioProject.h" />
+    <ClInclude Include="ItemEntity.h" />
+    <ClInclude Include="ProjectEntity.h" />
+    <ClInclude Include="ProjectWrapper.h" />
+    <ClInclude Include="ServerExplorerView.h" />
+    <ClInclude Include="SHLDataConnection.h" />
+    <ClInclude Include="QueryDataConnectionEntity.h" />
+    <ClInclude Include="SolutionEntity.h" />
+    <ClInclude Include="SolutionExplorerView.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="OutputWnd.h" />
+    <ClInclude Include="PropertiesWnd.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SHLStudio.h" />
+    <ClInclude Include="SHLStudioDoc.h" />
+    <ClInclude Include="SHLStudioView.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UGCtrlEx.h" />
+    <ClInclude Include="ViewTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CalendarBar.cpp" />
+    <ClCompile Include="ChildFrm.cpp" />
+    <ClCompile Include="ClassView.cpp" />
+    <ClCompile Include="ConfigurationManager.cpp" />
+    <ClCompile Include="DlgProjectAndFile.cpp" />
+    <ClCompile Include="ProjectWrapper.cpp" />
+    <ClCompile Include="ServerExplorerView.cpp" />
+    <ClCompile Include="SolutionExplorerView.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="OutputWnd.cpp" />
+    <ClCompile Include="PropertiesWnd.cpp" />
+    <ClCompile Include="SHLStudio.cpp" />
+    <ClCompile Include="SHLStudioDoc.cpp" />
+    <ClCompile Include="SHLStudioView.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UGCtrlEx.cpp" />
+    <ClCompile Include="ViewTree.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SHLStudio.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\buttons.bmp" />
+    <Image Include="res\classview.bmp" />
+    <Image Include="res\classview_hc.bmp" />
+    <Image Include="res\class_view.ico" />
+    <Image Include="res\class_view_hc.ico" />
+    <Image Include="res\column.bmp" />
+    <Image Include="res\constraint.bmp" />
+    <Image Include="res\data.bmp" />
+    <Image Include="res\data_add.bmp" />
+    <Image Include="res\data_connection.bmp" />
+    <Image Include="res\data_connection_16.bmp" />
+    <Image Include="res\data_connection_add.bmp" />
+    <Image Include="res\data_connection_save.bmp" />
+    <Image Include="res\data_delete.bmp" />
+    <Image Include="res\data_delete_16.bmp" />
+    <Image Include="res\data_disk.bmp" />
+    <Image Include="res\data_folder.bmp" />
+    <Image Include="res\data_lock.bmp" />
+    <Image Include="res\data_ok.bmp" />
+    <Image Include="res\explorer.bmp" />
+    <Image Include="res\explorer_hc.bmp" />
+    <Image Include="res\filelarge.bmp" />
+    <Image Include="res\filesmall.bmp" />
+    <Image Include="res\gears.bmp" />
+    <Image Include="res\index.bmp" />
+    <Image Include="res\Key-icon.bmp" />
+    <Image Include="res\puzzle.bmp" />
+    <Image Include="res\refresh_16.bmp" />
+    <Image Include="res\sequence.bmp" />
+    <Image Include="res\shlcollapsearrow.bmp" />
+    <Image Include="res\shlcollapsearrow.png" />
+    <Image Include="res\shlexpandarrow.bmp" />
+    <Image Include="res\shlexpandarrow.png" />
+    <Image Include="res\solutionview.bmp" />
+    <Image Include="res\solutionview_hc.bmp" />
+    <Image Include="res\file_view.ico" />
+    <Image Include="res\file_view_hc.ico" />
+    <Image Include="res\info.bmp" />
+    <Image Include="res\main.bmp" />
+    <Image Include="res\menuimages.bmp" />
+    <Image Include="res\menuimages_hc.bmp" />
+    <Image Include="res\nav_large.bmp" />
+    <Image Include="res\nav_large_hc.bmp" />
+    <Image Include="res\output_wnd.ico" />
+    <Image Include="res\output_wnd_hc.ico" />
+    <Image Include="res\pages.bmp" />
+    <Image Include="res\pages_hc.bmp" />
+    <Image Include="res\pages_small.bmp" />
+    <Image Include="res\pages_small_hc.bmp" />
+    <Image Include="res\properties.bmp" />
+    <Image Include="res\properties_hc.bmp" />
+    <Image Include="res\properties_wnd.ico" />
+    <Image Include="res\properties_wnd_hc.ico" />
+    <Image Include="res\SHLStudio.ico" />
+    <Image Include="res\SHLStudioDoc.ico" />
+    <Image Include="res\sort.bmp" />
+    <Image Include="res\sort_hc.bmp" />
+    <Image Include="res\table_sql.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\Toolbar256.bmp" />
+    <Image Include="res\toolbarserverexplorer.bmp" />
+    <Image Include="res\ToolBarSQL.bmp" />
+    <Image Include="res\ToolBarSQL_Large.bmp" />
+    <Image Include="res\ToolBarSQL_Large.png" />
+    <Image Include="res\ToolBarSQL_Large_Trans.png" />
+    <Image Include="res\ToolBarSQL_Small.png" />
+    <Image Include="res\trigger.bmp" />
+    <Image Include="res\writelarge.bmp" />
+    <Image Include="res\writesmall.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\idr_data.bin" />
+    <None Include="res\ribbon.mfcribbon-ms" />
+    <None Include="res\SHLStudio.rc2" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="SHLStudio.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
